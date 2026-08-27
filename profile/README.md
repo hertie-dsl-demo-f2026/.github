@@ -1,10 +1,14 @@
-# hertie-dsl-demo-f2026
+<!-- INSTRUCTOR-OWNED - this is the page students land on, so it is yours to word.
+     It is seeded ONCE and every edit you make survives the nightly refresh. The one
+     exception is the repo table below, between the dsl:repo-table markers. -->
 
-Welcome! This is the course organisation for **hertie-dsl-demo-f2026**.
+# Deep Learning (Demo)
+
+Welcome! This is the course organisation for **Deep Learning (Demo)**.
 
 ## Course website
 
-**[hertie-dsl-demo-f2026 - course website](https://hertie-dsl-demo-f2026.github.io/)** - schedule,
+**[Deep Learning (Demo) - course website](https://hertie-dsl-demo-f2026.github.io/)** - schedule,
 lectures, assignments, and the teaching team. Auto-generated and kept in sync with this
 org; updates on every release.
 
@@ -18,25 +22,23 @@ org; updates on every release.
 
 ## Where things are
 
+<!-- dsl:repo-table:start - AUTO-GENERATED from this org's live repo list.
+     Edits between these markers are overwritten on the next refresh. The
+     "What it's for" column is each repo's own GitHub description - to change
+     what a row says, edit that. -->
 | Repo | Visibility | What it's for |
 | --- | --- | --- |
 | [welcome](https://github.com/hertie-dsl-demo-f2026/welcome) | public | Course front door - open a Join issue to enrol |
-| [assignment-1](https://github.com/hertie-dsl-demo-f2026/assignment-1) | private | assignment-1 - cohort assignment template |
-| [assignment-1-henrycgbaker](https://github.com/hertie-dsl-demo-f2026/assignment-1-henrycgbaker) | private | assignment-1 - submission repo |
-| [assignment-3-project](https://github.com/hertie-dsl-demo-f2026/assignment-3-project) | private | assignment-3-project - cohort assignment template |
-| [assignment-3-project-team-alpha](https://github.com/hertie-dsl-demo-f2026/assignment-3-project-team-alpha) | private | assignment-3-project - submission repo |
-| [assignment-3-project-team-beta](https://github.com/hertie-dsl-demo-f2026/assignment-3-project-team-beta) | private | assignment-3-project - submission repo |
-| [assignment-3-project-team-gamma](https://github.com/hertie-dsl-demo-f2026/assignment-3-project-team-gamma) | private | assignment-3-project - submission repo |
 | [classroom-config](https://github.com/hertie-dsl-demo-f2026/classroom-config) | private | PRIVATE cohort config - roster (students.csv). No PII leaves here. |
-| [grades-henrycgbaker](https://github.com/hertie-dsl-demo-f2026/grades-henrycgbaker) | private | Private gradebook for @henrycgbaker |
 | [hertie-dsl-demo-f2026.github.io](https://github.com/hertie-dsl-demo-f2026/hertie-dsl-demo-f2026.github.io) | public | Course website (auto-deployed on push) |
 | [labs](https://github.com/hertie-dsl-demo-f2026/labs) | private | Released course materials (enrolled students only) |
 | [lectures](https://github.com/hertie-dsl-demo-f2026/lectures) | private | Released course materials (enrolled students only) |
 | [materials](https://github.com/hertie-dsl-demo-f2026/materials) | private | Released course materials (enrolled students only) |
 | [readings](https://github.com/hertie-dsl-demo-f2026/readings) | private | Released course materials (enrolled students only) |
+<!-- dsl:repo-table:end -->
 
 _Teaching staff (instructors, TAs, faculty assistants): your action workflows aren't here - they live in the
 parent **course org's** `.github` control panel, on its Actions tab._
 
 ---
-_Hertie Data Science Lab. This page is auto-generated._
+_Hertie Data Science Lab._
