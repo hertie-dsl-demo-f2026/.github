@@ -31,10 +31,10 @@ org; updates on every release.
 | [welcome](https://github.com/hertie-dsl-demo-f2026/welcome) | public | Course front door - open a Join issue to enrol |
 | [classroom-config](https://github.com/hertie-dsl-demo-f2026/classroom-config) | private | PRIVATE cohort config - roster (students.csv). No PII leaves here. |
 | [hertie-dsl-demo-f2026.github.io](https://github.com/hertie-dsl-demo-f2026/hertie-dsl-demo-f2026.github.io) | public | Course website (auto-deployed on push) |
-| [labs](https://github.com/hertie-dsl-demo-f2026/labs) | private | Released course materials (enrolled students only) |
-| [lectures](https://github.com/hertie-dsl-demo-f2026/lectures) | private | Released course materials (enrolled students only) |
-| [materials](https://github.com/hertie-dsl-demo-f2026/materials) | private | Released course materials (enrolled students only) |
-| [readings](https://github.com/hertie-dsl-demo-f2026/readings) | private | Released course materials (enrolled students only) |
+| [labs](https://github.com/hertie-dsl-demo-f2026/labs) | private | Released lectures, labs, readings, and other materials |
+| [lectures](https://github.com/hertie-dsl-demo-f2026/lectures) | private | Released lectures, labs, readings, and other materials |
+| [materials](https://github.com/hertie-dsl-demo-f2026/materials) | private | Released lectures, labs, readings, and other materials |
+| [readings](https://github.com/hertie-dsl-demo-f2026/readings) | private | Released lectures, labs, readings, and other materials |
 <!-- dsl:repo-table:end -->
 
 _Teaching staff (instructors, TAs, faculty assistants): your action workflows aren't here - they live in the
