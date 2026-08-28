@@ -51,8 +51,5 @@ org; updates on every release.
 | [materials](https://github.com/hertie-dsl-demo-f2026/materials) | public | Released lectures, labs, readings, & other materials |
 <!-- dsl:repo-table:end -->
 
-_Teaching staff (instructors, TAs, faculty assistants): your action workflows aren't here - they live in the
-parent **course org's** `.github` control panel, on its Actions tab._
-
 ---
 _Hertie Data Science Lab._
