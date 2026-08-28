@@ -6,6 +6,23 @@
 
 Welcome! This is the course organisation for **Deep Learning (Demo)**.
 
+<!-- dsl-demo-framing:start -->
+> **A demonstration org.** Everything here is public so you can read it without a GitHub
+> account. In a real cohort `classroom-config`, `materials`, every `<assignment>-<handle>`
+> submission and every `grades-<handle>` gradebook are **private** - the descriptions in
+> the table below still state those real permissions. The roster, marks and comments are
+> invented.
+>
+> This is the **fully-customised** cohort: staggered release times, silent readings, group
+> work, auditors, exams. [`hertie-dsl-demo-f2025`](https://github.com/hertie-dsl-demo-f2025)
+> is the same toolkit with nothing customised - the quickest route to a deployed course.
+> Both are released from
+> [`hertie-dsl-demo-course-e1234`](https://github.com/hertie-dsl-demo-course-e1234).
+>
+> Start with [`classroom-config`](https://github.com/hertie-dsl-demo-f2026/classroom-config) -
+> one repo holding the entire configuration surface.
+<!-- dsl-demo-framing:end -->
+
 ## Course website
 
 **[Deep Learning (Demo) - course website](https://hertie-dsl-demo-f2026.github.io/)** - schedule,
