@@ -48,7 +48,7 @@ org; updates on every release.
 | --- | --- | --- |
 | [join](https://github.com/hertie-dsl-demo-f2026/join) | public (students join here) | Course front door - open a Join issue to enrol |
 | [materials](https://github.com/hertie-dsl-demo-f2026/materials) | enrolled students & auditors only | Released lectures, labs, readings, & other materials |
-| [semester-config](https://github.com/hertie-dsl-demo-f2026/semester-config) | instructor-only | [visible to instructors only]: Everything you configure for this cohort is here - student roster, teams, term schedule, and marking. Students never see it, and no PII leaves this repo. |
+| [semester-config](https://github.com/hertie-dsl-demo-f2026/semester-config) | instructor-only | [visible to instructors only]: Everything you configure for this semester is here - student roster, teams, schedule, and marking. Students never see it, and no PII leaves this repo. |
 | [hertie-dsl-demo-f2026.github.io](https://github.com/hertie-dsl-demo-f2026/hertie-dsl-demo-f2026.github.io) | public | [do not touch]: Course website (auto-deployed) |
 <!-- dsl:repo-table:end -->
 
