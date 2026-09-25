@@ -1,0 +1,62 @@
+{
+  "hertie-dsl-demo-f2026/classroom-config": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-f2026/welcome": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-f2026/hertie-dsl-demo-f2026.github.io": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/.github": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/assignment-1-f2026": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/assignment-2-f2026": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/assignment-3-project-f2026": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/assignment-4-f2026": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/assignment-5-f2026": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/assignment-6-f2026": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/assignment-7-f2026": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/course-materials-f2025": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/course-materials-f2026": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/hertie-dsl-demo-course-e1234.github.io": {
+    "enabled": true,
+    "allowed_actions": "all"
+  },
+  "hertie-dsl-demo-course-e1234/lecture-code-f2026": {
+    "enabled": true,
+    "allowed_actions": "all"
+  }
+}
