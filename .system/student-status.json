@@ -1,0 +1,1301 @@
+{
+  "schema": "dsl.student-status/1",
+  "semester": "hertie-dsl-demo-f2026",
+  "course_name": "Deep Learning (Demo)",
+  "term_label": "Fall 2026",
+  "timezone": "Europe/Berlin",
+  "archive_datetime": "2027-01-12",
+  "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
+  "syllabus": {
+    "repo": "materials",
+    "path": "SYLLABUS.md"
+  },
+  "kinds": {
+    "lecture": {
+      "label": "Lecture",
+      "colour": "#a94442",
+      "background": "#f2dede"
+    },
+    "lab": {
+      "label": "Lab",
+      "colour": "#3c763d",
+      "background": "#dff0d8"
+    },
+    "readings": {
+      "label": "Readings",
+      "colour": "#2b6a60",
+      "background": "#dcefec"
+    },
+    "exam": {
+      "label": "Exam",
+      "colour": "#5a5f66",
+      "background": "#f0f1f2"
+    },
+    "assignment": {
+      "label": "Assignment",
+      "colour": "#31708f",
+      "background": "#d9edf7"
+    },
+    "term": {
+      "label": "Semester",
+      "colour": "#59468f",
+      "background": "#e5dcf0"
+    },
+    "archive": {
+      "label": "Archive",
+      "colour": "#7d6230",
+      "background": "#fbf2d5"
+    },
+    "drop-in": {
+      "label": "Drop-in",
+      "colour": "#8f4a1c",
+      "background": "#fbe3d6"
+    },
+    "other": {
+      "label": "Event",
+      "colour": "#7d6230",
+      "background": "#fbf2d5"
+    }
+  },
+  "rows": [
+    {
+      "id": "term-start",
+      "kind": "term_date",
+      "number": null,
+      "when": "2026-08-04",
+      "all_day": true,
+      "title": "Semester starts",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-01",
+      "kind": "lecture",
+      "number": 1,
+      "when": "2026-08-04T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 1",
+      "subtitle": "Deep learning in public policy",
+      "details": "What deep learning is, where it already sits in public-sector decision making, and what this course will and will not claim for it.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "01_deep-learning-in-public-policy",
+          "repo": "materials",
+          "path": "lectures/01_deep-learning-in-public-policy",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/01_deep-learning-in-public-policy"
+        },
+        {
+          "name": "01_deep-learning-in-public-policy",
+          "repo": "materials",
+          "path": "readings/01_deep-learning-in-public-policy",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/01_deep-learning-in-public-policy"
+        }
+      ],
+      "readings": [
+        {
+          "name": "01_deep-learning-in-public-policy",
+          "repo": "materials",
+          "path": "readings/01_deep-learning-in-public-policy",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/01_deep-learning-in-public-policy"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lab-01",
+      "kind": "lab",
+      "number": 1,
+      "when": "2026-08-06T14:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 1",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "01_deep-learning-in-public-policy",
+          "repo": "materials",
+          "path": "labs/01_deep-learning-in-public-policy",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/01_deep-learning-in-public-policy"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-02",
+      "kind": "lecture",
+      "number": 2,
+      "when": "2026-08-11T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 2",
+      "subtitle": "Deep neural networks (1)",
+      "details": "Perceptrons, activation functions and the forward pass; why depth buys representational power.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "02_deep-neural-networks-1",
+          "repo": "materials",
+          "path": "lectures/02_deep-neural-networks-1",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/02_deep-neural-networks-1"
+        },
+        {
+          "name": "02_deep-neural-networks-1",
+          "repo": "materials",
+          "path": "readings/02_deep-neural-networks-1",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/02_deep-neural-networks-1"
+        }
+      ],
+      "readings": [
+        {
+          "name": "02_deep-neural-networks-1",
+          "repo": "materials",
+          "path": "readings/02_deep-neural-networks-1",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/02_deep-neural-networks-1"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lab-02",
+      "kind": "lab",
+      "number": 2,
+      "when": "2026-08-13T14:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 2",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "02_deep-neural-networks-1",
+          "repo": "materials",
+          "path": "labs/02_deep-neural-networks-1",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/02_deep-neural-networks-1"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-03",
+      "kind": "lecture",
+      "number": 3,
+      "when": "2026-08-18T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 3",
+      "subtitle": "Deep neural networks (2)",
+      "details": "Backpropagation and gradient descent in practice: initialisation, learning rates, and the failure modes of each.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "03_deep-neural-networks-2",
+          "repo": "materials",
+          "path": "lectures/03_deep-neural-networks-2",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/03_deep-neural-networks-2"
+        },
+        {
+          "name": "03_deep-neural-networks-2",
+          "repo": "materials",
+          "path": "readings/03_deep-neural-networks-2",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/03_deep-neural-networks-2"
+        }
+      ],
+      "readings": [
+        {
+          "name": "03_deep-neural-networks-2",
+          "repo": "materials",
+          "path": "readings/03_deep-neural-networks-2",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/03_deep-neural-networks-2"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-1:handout",
+      "kind": "assignment",
+      "number": null,
+      "when": "2026-08-18T14:00:00+02:00",
+      "all_day": false,
+      "title": "Assignment 1",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-1",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lab-03",
+      "kind": "lab",
+      "number": 3,
+      "when": "2026-08-20T14:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 3",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "03_deep-neural-networks-2",
+          "repo": "materials",
+          "path": "labs/03_deep-neural-networks-2",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/03_deep-neural-networks-2"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-04",
+      "kind": "lecture",
+      "number": 4,
+      "when": "2026-08-25T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 4",
+      "subtitle": "Computer vision (1): Convolutional neural networks",
+      "details": "Convolution, pooling and parameter sharing, and why they suit images.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "04_computer-vision-1-cnns",
+          "repo": "materials",
+          "path": "lectures/04_computer-vision-1-cnns",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/04_computer-vision-1-cnns"
+        },
+        {
+          "name": "04_computer-vision-1-cnns",
+          "repo": "materials",
+          "path": "readings/04_computer-vision-1-cnns",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/04_computer-vision-1-cnns"
+        }
+      ],
+      "readings": [
+        {
+          "name": "04_computer-vision-1-cnns",
+          "repo": "materials",
+          "path": "readings/04_computer-vision-1-cnns",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/04_computer-vision-1-cnns"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lab-04",
+      "kind": "lab",
+      "number": 4,
+      "when": "2026-08-27T14:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 4",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "04_computer-vision-1-cnns",
+          "repo": "materials",
+          "path": "labs/04_computer-vision-1-cnns",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/04_computer-vision-1-cnns"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-05",
+      "kind": "lecture",
+      "number": 5,
+      "when": "2026-09-01T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 5",
+      "subtitle": "Computer vision (2): Modern CNNs, implementation and applications",
+      "details": "Residual connections and modern architectures, with applications to satellite imagery for policy.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "05_computer-vision-2-modern-cnns",
+          "repo": "materials",
+          "path": "lectures/05_computer-vision-2-modern-cnns",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/05_computer-vision-2-modern-cnns"
+        },
+        {
+          "name": "05_computer-vision-2-modern-cnns",
+          "repo": "materials",
+          "path": "readings/05_computer-vision-2-modern-cnns",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/05_computer-vision-2-modern-cnns"
+        }
+      ],
+      "readings": [
+        {
+          "name": "05_computer-vision-2-modern-cnns",
+          "repo": "materials",
+          "path": "readings/05_computer-vision-2-modern-cnns",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/05_computer-vision-2-modern-cnns"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-2:handout",
+      "kind": "assignment",
+      "number": null,
+      "when": "2026-09-01T14:00:00+02:00",
+      "all_day": false,
+      "title": "Assignment 2",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-2",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lab-05",
+      "kind": "lab",
+      "number": 5,
+      "when": "2026-09-03T14:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 5",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "05_computer-vision-2-modern-cnns",
+          "repo": "materials",
+          "path": "labs/05_computer-vision-2-modern-cnns",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/05_computer-vision-2-modern-cnns"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-06",
+      "kind": "lecture",
+      "number": 6,
+      "when": "2026-09-08T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 6",
+      "subtitle": "Sequence methods and time-series analysis",
+      "details": "Recurrent architectures and their limits; where classical time-series methods remain the better tool.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "06_sequence-methods-and-time-series",
+          "repo": "materials",
+          "path": "lectures/06_sequence-methods-and-time-series",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/06_sequence-methods-and-time-series"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-1:due",
+      "kind": "due",
+      "number": null,
+      "when": "2026-09-08T23:59:00+02:00",
+      "all_day": false,
+      "title": "Assignment 1",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-1",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lab-06",
+      "kind": "lab",
+      "number": 6,
+      "when": "2026-09-10T14:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 6",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "06_sequence-methods-and-time-series",
+          "repo": "materials",
+          "path": "labs/06_sequence-methods-and-time-series",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/06_sequence-methods-and-time-series"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-07",
+      "kind": "lecture",
+      "number": 7,
+      "when": "2026-09-15T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 7",
+      "subtitle": "Natural language processing (1)",
+      "details": "Text as data: tokenisation, embeddings, and what a language model is actually estimating.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "07_natural-language-processing-1",
+          "repo": "materials",
+          "path": "lectures/07_natural-language-processing-1",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/07_natural-language-processing-1"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-3-project:handout",
+      "kind": "assignment",
+      "number": null,
+      "when": "2026-09-15T14:00:00+02:00",
+      "all_day": false,
+      "title": "Assignment 3 Project",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-3-project",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-4:handout",
+      "kind": "assignment",
+      "number": null,
+      "when": "2026-09-17T04:35:00+02:00",
+      "all_day": false,
+      "title": "Assignment 4",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-4",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-5:handout",
+      "kind": "assignment",
+      "number": null,
+      "when": "2026-09-17T04:35:00+02:00",
+      "all_day": false,
+      "title": "Assignment 5",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-5",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-6:handout",
+      "kind": "assignment",
+      "number": null,
+      "when": "2026-09-17T04:35:00+02:00",
+      "all_day": false,
+      "title": "Assignment 6",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-6",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-7:handout",
+      "kind": "assignment",
+      "number": null,
+      "when": "2026-09-17T04:35:00+02:00",
+      "all_day": false,
+      "title": "Assignment 7",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-7",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-4:due",
+      "kind": "due",
+      "number": null,
+      "when": "2026-09-20T23:59:00+02:00",
+      "all_day": false,
+      "title": "Assignment 4",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-4",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-5:due",
+      "kind": "due",
+      "number": null,
+      "when": "2026-09-20T23:59:00+02:00",
+      "all_day": false,
+      "title": "Assignment 5",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-5",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-6:due",
+      "kind": "due",
+      "number": null,
+      "when": "2026-09-20T23:59:00+02:00",
+      "all_day": false,
+      "title": "Assignment 6",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-6",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-7:due",
+      "kind": "due",
+      "number": null,
+      "when": "2026-09-20T23:59:00+02:00",
+      "all_day": false,
+      "title": "Assignment 7",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-7",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-08",
+      "kind": "lecture",
+      "number": 8,
+      "when": "2026-09-22T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 8",
+      "subtitle": "Natural language processing (2): Encoder-decoder architecture and attention",
+      "details": "The attention mechanism and the transformer, read through the papers that introduced them.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "08_nlp-2-encoder-decoder-and-attention",
+          "repo": "materials",
+          "path": "lectures/08_nlp-2-encoder-decoder-and-attention",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/08_nlp-2-encoder-decoder-and-attention"
+        },
+        {
+          "name": "08_nlp-2-encoder-decoder-and-attention",
+          "repo": "materials",
+          "path": "readings/08_nlp-2-encoder-decoder-and-attention",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/08_nlp-2-encoder-decoder-and-attention"
+        }
+      ],
+      "readings": [
+        {
+          "name": "08_nlp-2-encoder-decoder-and-attention",
+          "repo": "materials",
+          "path": "readings/08_nlp-2-encoder-decoder-and-attention",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/08_nlp-2-encoder-decoder-and-attention"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "midterm-exam",
+      "kind": "exam",
+      "number": null,
+      "when": "2026-09-22T10:00:00+02:00",
+      "all_day": false,
+      "title": "Midterm Exam",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "guest-lecture",
+      "kind": "special_event",
+      "number": null,
+      "when": "2026-09-22T16:00:00+02:00",
+      "all_day": false,
+      "title": "Guest lecture: deep learning at the Federal Statistical Office",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-09",
+      "kind": "lecture",
+      "number": 9,
+      "when": "2026-09-29T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 9",
+      "subtitle": "Further topics in deep learning",
+      "details": "Uncertainty quantification, generative models, and the state of the research frontier.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "09_further-topics",
+          "repo": "materials",
+          "path": "readings/09_further-topics",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/09_further-topics"
+        }
+      ],
+      "readings": [
+        {
+          "name": "09_further-topics",
+          "repo": "materials",
+          "path": "readings/09_further-topics",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/09_further-topics"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-2:due",
+      "kind": "due",
+      "number": null,
+      "when": "2026-09-29T23:59:00+02:00",
+      "all_day": false,
+      "title": "Assignment 2",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-2",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lab-09",
+      "kind": "lab",
+      "number": 9,
+      "when": "2026-10-01T14:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 9",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "reading-week",
+      "kind": "special_event",
+      "number": null,
+      "when": "2026-10-06",
+      "all_day": true,
+      "title": "Reading week - no class",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-10",
+      "kind": "lecture",
+      "number": 10,
+      "when": "2026-10-06T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 10",
+      "subtitle": "Policy approaches to regulate deep learning",
+      "details": "Regulation, auditing and the documented harms of large models, with the EU AI Act as the worked case.\n",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": true
+    },
+    {
+      "id": "lecture-11",
+      "kind": "lecture",
+      "number": 11,
+      "when": "2026-10-13T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 11",
+      "subtitle": "Deep learning in practice",
+      "details": "Putting a model into a real workflow: compute, reproducibility and maintenance.\n",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "11_deep-learning-in-practice",
+          "repo": "materials",
+          "path": "readings/11_deep-learning-in-practice",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/11_deep-learning-in-practice"
+        }
+      ],
+      "readings": [
+        {
+          "name": "11_deep-learning-in-practice",
+          "repo": "materials",
+          "path": "readings/11_deep-learning-in-practice",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/11_deep-learning-in-practice"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lab-11",
+      "kind": "lab",
+      "number": 11,
+      "when": "2026-10-15T14:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 11",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "lecture-12",
+      "kind": "lecture",
+      "number": 12,
+      "when": "2026-10-20T10:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 12",
+      "subtitle": "Tutorial presentations",
+      "details": "Students present their tutorial topic to the group.\n",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "assignment-3-project:due",
+      "kind": "due",
+      "number": null,
+      "when": "2026-10-23T23:59:00+02:00",
+      "all_day": false,
+      "title": "Assignment 3 Project",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-3-project",
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "final-exam",
+      "kind": "exam",
+      "number": null,
+      "when": "2026-11-10T10:00:00+01:00",
+      "all_day": false,
+      "title": "Final Exam",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "resit-exam",
+      "kind": "exam",
+      "number": null,
+      "when": "2026-11-13",
+      "all_day": true,
+      "title": "Resit Exam",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "term-end",
+      "kind": "term_date",
+      "number": null,
+      "when": "2026-11-13",
+      "all_day": true,
+      "title": "Semester ends",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    },
+    {
+      "id": "semester-archived",
+      "kind": "special_event",
+      "number": null,
+      "when": "2027-01-12",
+      "all_day": true,
+      "title": "Semester archived",
+      "subtitle": "",
+      "details": "This semester is archived on 2027-01-12: every repository in it becomes read-only. You keep read access, so you can still fork or clone anything you want to keep working on into your own account.",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false
+    }
+  ],
+  "assignments": [
+    {
+      "slug": "assignment-1",
+      "title": "Assignment 1",
+      "subtitle": "Linear regression from scratch",
+      "handout_datetime": "2026-08-18T14:00:00+02:00",
+      "due_datetime": "2026-09-08T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-18T23:59:00+02:00",
+      "late_rule": "10% per day, up to 10 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-private",
+      "shape_note": "NB: this repo is private - only you and the instructors can read it.",
+      "private_repo": true,
+      "submit_url": "",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": "2026-09-15T09:00:00+02:00",
+      "max_points": null,
+      "handed_out": true,
+      "brief": "This assignment asks you to build ordinary least squares from first principles, using\nnothing but the standard library, so that you understand exactly what a call to `fit()`\nis doing before you rely on a modelling package for the rest of the course.\n\n## Task\n\nYou are given a small tabular dataset and a `starter.py` with four functions to complete:\n`fit_linear_regression`, `predict`, `r_squared` and `solve_linear_system`. The first three\nbuild the familiar OLS workflow end to end; the fourth is the linear algebra underneath it,\nsince `fit_linear_regression` should call your own solver rather than a library routine.\n\nWork through the normal equations by hand before you code them: write down the matrix\nform, check the dimensions, and only then translate it into loops or list comprehensions.\nA solver that works on a well-behaved toy example but breaks on a singular or\nnear-singular system is a common failure mode here, so test with more than one dataset\nshape.\n\nTo get started:\n\n- Read the starter and the docstrings before writing anything.\n- Derive the normal equations on paper first.\n- Implement `solve_linear_system`, then `fit_linear_regression`, then `predict` and `r_squared`.\n- Test each function against a small worked example you can check by hand.\n- Run the whole file top to bottom before you commit.\n\n## What to submit\n\nUpload your completed `starter.py` to Moodle. Nothing is collected from GitHub for this\nassignment; this repository is where the starter and this brief live, not where work is\nhanded in.\n\n## Grading\n\n- Correctness of `solve_linear_system` on both well-conditioned and near-singular inputs.\n- Correctness of `fit_linear_regression`, `predict` and `r_squared` against known worked examples.\n- Code clarity: sensible names, no unnecessary repetition, and numerical guards where the\n  docstrings ask for them.\n- Whether the file runs cleanly from a fresh checkout.",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-2",
+      "title": "Assignment 2",
+      "subtitle": "Classification and evaluation",
+      "handout_datetime": "2026-09-01T14:00:00+02:00",
+      "due_datetime": "2026-09-29T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-29T23:59:00+02:00",
+      "late_rule": "not accepted after the deadline",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-private",
+      "shape_note": "NB: this repo is private - only you and the instructors can read it.",
+      "private_repo": true,
+      "submit_url": "",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": 25,
+      "handed_out": true,
+      "brief": "This assignment builds a logistic regression classifier and its evaluation machinery from\nfirst principles, then puts both to work on a realistic decision: where to set the\nthreshold for a lending model.\n\n## Task\n\nWorking in `starter.ipynb`, standard library only, you will implement `sigmoid`,\n`log_loss`, `predict_proba`, `fit_logistic`, `confusion_counts`, `precision_recall_f1` and\n`choose_threshold`. Each function builds on the last, so get the numerically stable\nversion of `sigmoid` and `log_loss` right early, since every later function depends on\nthem behaving sensibly near the extremes.\n\nOnce the model fits, the interesting part starts: a lending decision is not well served\nby accuracy alone, and the assignment asks you to reason about the relative cost of a\nfalse positive against a false negative, then choose and defend a threshold rather than\ndefaulting to 0.5. Treat the write-up as seriously as the code; a numerically correct\nmodel with no defensible threshold is only half the assignment.\n\nSuggested steps:\n\n- Implement and unit-test `sigmoid` and `log_loss` before anything else.\n- Build `fit_logistic` and check it converges on a toy dataset with a known answer.\n- Implement `confusion_counts` and `precision_recall_f1`, and sanity-check them against a\n  hand-worked example.\n- Use `choose_threshold` to explore the precision-recall trade-off across the cost ratio\n  the brief describes.\n- Restart the kernel and run all cells before you commit.\n\n## What to submit\n\nPush your completed `starter.ipynb` to `main` - that push is your submission. Every\ntop-level cell must run cleanly, since the grader converts the notebook to a script and\nimports it directly; a cell that raises stops the import and costs you every automated\nmark.\n\n## Grading\n\n- Automated tests against the seven required functions.\n- Code quality: clear names, no repetition, and the numerical guards the docstrings ask for.\n- The written threshold justification: the cost ratio you chose, what it implies, and one\n  thing this evaluation cannot settle.",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-3-project",
+      "title": "Assignment 3 Project",
+      "subtitle": "Group project",
+      "handout_datetime": "2026-09-15T14:00:00+02:00",
+      "due_datetime": "2026-10-23T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-10-26T23:59:00+01:00",
+      "late_rule": "10% per day, up to 3 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-private",
+      "shape_note": "NB: this repo is private - only you and the instructors can read it.",
+      "private_repo": true,
+      "submit_url": "",
+      "group": true,
+      "team_formation": {
+        "closes_datetime": "2026-10-26T23:59:00+01:00",
+        "max_team_size": 3
+      },
+      "teams": [
+        {
+          "name": "team-latency",
+          "members": 1,
+          "cap": 3
+        }
+      ],
+      "solution_datetime": null,
+      "max_points": 50,
+      "handed_out": true,
+      "brief": "Working in your team, you will take a question you can defend, build the smallest model\nthat answers it honestly, and write it up so that a reader who was not in the room can\ntell whether to believe you.\n\n## Task\n\nThe point of this project is not the highest possible score; a careful, honestly\nevaluated simple model beats a leaky, over-tuned ensemble every time, and the report is\nwhere you show your reasoning stands up. Agree your question and dataset early, and write\nthe question down before you touch the data - a team that decides the question after\nseeing the results has already made the mistake the marking looks for.\n\nBuild a baseline first and keep its number in the final report next to your model's.\nEvery fitted transformation - scaling, encoding, imputation - has to sit inside your\ntrain/test split, never fitted on the whole dataset beforehand; this is the single most\ncommon way an otherwise sound project quietly leaks, and everyone on the team should be\nable to explain why it matters.\n\nTo get started:\n\n- Agree the question and dataset as a team in the first week, not the third.\n- Build and report a baseline before tuning anything more elaborate.\n- Fit every transformation inside the split, using a pipeline rather than doing it by hand.\n- Split once, early, and do not return to the test set until the report is written.\n- Draft `REPORT.md` early and keep it updated as the model develops.\n\n## What to submit\n\nThis is group work: one submission per team, from your team's own repository. Push\n`REPORT.md`, `src/pipeline.py` (or the R equivalent), `requirements.txt` (or `renv.lock`)\nand `data/README.md` describing where the data came from, to `main`. Do not commit the raw\ndata itself.\n\n## Grading\n\n- Framing and data handling: a real question, a metric that matches the decision, and\n  missingness and provenance handled deliberately.\n- Method and evaluation: a defensible split, honest tuning, and comparison against a\n  baseline with an interval.\n- Report and model card: legible to a non-specialist, with limitations stated in specifics\n  rather than in general terms.\n- Reproducibility: runs from a clean checkout with a fixed seed and pinned dependencies;\n  each member's mark carries an individual adjustment based on their contribution.",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-4",
+      "title": "Assignment 4",
+      "subtitle": "Hackathon showcase",
+      "handout_datetime": "2026-09-17T04:35:00+02:00",
+      "due_datetime": "2026-09-20T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
+      "late_rule": "10% per day, up to 1 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-public",
+      "shape_note": "NB: this repo is public, anyone on the internet can read it. Push to main as usual, but commit nothing you would not publish and no data you were told to keep private.",
+      "private_repo": false,
+      "submit_url": "",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": 100,
+      "handed_out": true,
+      "brief": "This is a sprint, not a term project: in a short, compressed window you will pick a small\ndata problem, build something that actually runs, and show it off.\n\n## Task\n\nChoose a dataset and a question you can make real progress on quickly - better a small,\nworking end-to-end pipeline than an ambitious one that only half-runs by the deadline.\nSpend the first stretch of time getting something crude working front to back before you\npolish any single part of it; a rough baseline that produces an answer beats a\nbeautifully engineered feature pipeline with nothing at the end of it.\n\nBecause this repository is public from the day it is handed out, treat every commit as\nsomething a stranger could read. Keep the write-up short and honest about what worked and\nwhat did not; a hackathon project that admits its limitations is more convincing than one\nthat oversells a result nobody can reproduce.\n\nSuggested approach:\n\n- Pick a problem you can scope down to something finishable.\n- Get a crude end-to-end version working before improving any one part.\n- Keep a short running log of decisions and dead ends as you go.\n- Prepare a brief demo: what it does, what it does not, and why.\n\n## What to submit\n\nPush your notebook or code, and a short write-up, to `main`. This repository is public\nfrom day one, so commit nothing private or sensitive - no credentials, no personal data,\nnothing you would not want indexed.\n\n## Grading\n\n- Prototype (40%): does it run end to end, and does it answer the question you set yourself?\n- Demo (30%): can you explain what you built and why, clearly and honestly?\n- Write-up (30%): a short, accurate account of the approach, its limits and what you would\n  do with more time.",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-5",
+      "title": "Assignment 5",
+      "subtitle": "Portfolio piece",
+      "handout_datetime": "2026-09-17T04:35:00+02:00",
+      "due_datetime": "2026-09-20T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
+      "late_rule": "10% per day, up to 1 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-student-choice",
+      "shape_note": "NB: this repo is private-by-default; you are its admin - after the late cutoff you may make it public from Settings > Danger zone if you want it in your portfolio.",
+      "private_repo": false,
+      "submit_url": "",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": null,
+      "handed_out": true,
+      "brief": "This assignment is a chance to produce something you would be happy to point a future\nemployer or supervisor at: an independent piece of analysis, done to a standard you set\nfor yourself rather than for a grade alone.\n\n## Task\n\nPick a dataset and a question that genuinely interests you and that you can do properly\nin the time available - depth on a modest question beats a shallow pass over an\nambitious one. Plan the piece as you would a short technical report: a clear question, a\ndefensible method, and a result presented so that someone outside the course can follow\nyour reasoning without having sat in the lectures.\n\nBecause this repository is yours to publish once it is marked, write and comment your\ncode as though someone unfamiliar with the assignment will read it later - which they may\nwell do, since one of the freedoms this piece gives you is deciding whether to make it\npublic afterwards.\n\nSuggested steps:\n\n- Choose a question you can answer convincingly within the scope of the assignment.\n- Explore the data before committing to a method, and note what you ruled out and why.\n- Build the analysis; restart the kernel and run all cells before each commit.\n- Write a short narrative around the results aimed at a reader outside the course.\n\n## What to submit\n\nPush your notebook and any supporting files to `main`. The repository stays private until\nthe grading cutoff, after which it is yours to publish or keep private as you choose.\n\n## Grading\n\n- Analytical depth: a real question, answered with an appropriate method.\n- Clarity: a reader outside the course can follow the reasoning and the result.\n- Reproducibility: the notebook runs cleanly from a fresh checkout.\n- Presentation: the piece reads as something you would be glad to share.",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-6",
+      "title": "Assignment 6",
+      "subtitle": "Referee reports",
+      "handout_datetime": "2026-09-17T04:35:00+02:00",
+      "due_datetime": "2026-09-20T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
+      "late_rule": "10% per day, up to 1 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "shared_dropbox_repo",
+      "shape": "shared-dropbox-repo",
+      "shape_note": "NB: everyone in the semester can read the whole repo, so commit nothing you would not show the class.",
+      "private_repo": false,
+      "submit_url": "",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": null,
+      "handed_out": true,
+      "brief": "This assignment puts you on the other side of the review process: instead of building a\nmodel, you will read someone else's work critically and write the kind of report a\njournal referee would submit.\n\n## Task\n\nYou will be given a paper, or a model write-up, to assess. Read it as a referee would:\nnot looking for reasons to reject it, but checking whether its claims are supported by\nwhat it actually did. Pay particular attention to the method-to-claim link - does the\nevaluation the authors ran actually support the conclusion they draw from it, or is there\na gap a careful reader should flag?\n\nStructure your report the way a real referee report is structured: a short summary of\nwhat the work claims, a list of substantive concerns (methodology, evaluation, missing\nbaselines, overclaiming), and a smaller list of minor points. Be specific; \"the\nevaluation is weak\" is not useful to anyone, \"the baseline in Table 2 is not tuned to the\nsame standard as the proposed method\" is.\n\nSuggested steps:\n\n- Read the assigned piece twice before writing anything: once for the argument, once for\n  the evidence.\n- List every claim that depends on a specific piece of evidence, and check it.\n- Separate major concerns from minor ones explicitly.\n- Write the summary last, once you know what you actually think.\n\n## What to submit\n\nPush your report, as a PDF named `<your-handle>.pdf`, into your own folder of the shared\ndrop box repository. Everyone in the cohort pushes into their own folder of the same\nrepository, and your peers can read what you write.\n\n## Grading\n\n- Whether the major concerns raised are substantive and specific.\n- Whether the method-to-claim link is checked carefully rather than asserted.\n- The clarity and structure of the report itself.",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-7",
+      "title": "Assignment 7",
+      "subtitle": "Moodle essay",
+      "handout_datetime": "2026-09-17T04:35:00+02:00",
+      "due_datetime": "2026-09-20T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
+      "late_rule": "",
+      "cutoff_sentence": "",
+      "submit_via": "external",
+      "shape": "external",
+      "shape_note": "",
+      "private_repo": false,
+      "submit_url": "https://moodle.hertie-school.org/mod/assign/view.php?id=424242",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": 100,
+      "handed_out": true,
+      "brief": "This assignment is a conventional written essay, marked on the strength of your argument\nrather than on any code.\n\n## Task\n\nChoose one of the debates set for this assignment - the ones covering the course's data\nethics and methodology sessions - and construct an argument that takes a clear position\nand defends it against the obvious objections, rather than describing both sides and\ndeclining to choose. An essay that surveys the literature without ever committing to a\nclaim is the most common way marks are lost here.\n\nUse evidence deliberately: a claim about a method's limitations should point to a\nspecific case or result, not a vague appeal to \"the literature\". Keep the structure\nsimple - an introduction that states your position, a body that builds the case section\nby section, and a conclusion that could not be swapped for another essay's without\nchanging the argument beneath it.\n\nSuggested approach:\n\n- Choose your question early and write your position in one sentence before drafting anything.\n- Outline the argument as a sequence of claims, and check each one has evidence behind it.\n- Draft the body before the introduction; write the introduction to match what you\n  actually argued.\n- Read it back for anywhere you hedge instead of arguing, and fix those first.\n\n## What to submit\n\nUpload your essay to Moodle (moodle.hertie-school.org). Nothing is collected from GitHub\nfor this assignment; this repository holds the brief and nothing else.\n\n## Grading\n\n- Argument (40%): a clear position, defended against its obvious objections.\n- Evidence (30%): specific, relevant support for each substantive claim.\n- Writing (30%): structure, clarity, and whether the conclusion follows from the body.",
+      "tbc": false
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Prof. Lynn Kaack, PhD",
+      "title": "Assistant Professor of Computer Science and Public Policy",
+      "webpage": "https://www.hertie-school.org/de/research/faculty-and-researchers/profile/person/kaack",
+      "picture": "https://github.com/LynnKaack.png",
+      "role": "instructor",
+      "email": ""
+    },
+    {
+      "name": "Chiara Fusar Bassini",
+      "title": "PhD candidate, Data Science Lab",
+      "webpage": "https://www.hertie-school.org/en/who-we-are/profile/person/fusar-bassini",
+      "picture": "https://github.com/chiara-fb.png",
+      "role": "teaching_assistant",
+      "email": ""
+    },
+    {
+      "name": "Henry Baker",
+      "title": "Research Engineer & Data Scientist",
+      "webpage": "https://www.hertie-school.org/en/who-we-are/profile/person/baker",
+      "picture": "https://hertie-dsl-demo-f2026.github.io/_images/pp/henrycgbaker.jpg",
+      "role": "teaching_assistant",
+      "email": ""
+    }
+  ],
+  "late_policy": [
+    "10% per day, up to 10 days",
+    "not accepted after the deadline",
+    "10% per day, up to 3 days",
+    "10% per day, up to 1 days"
+  ],
+  "materials_repos": [
+    "materials"
+  ],
+  "materials_index": [
+    {
+      "repo": "materials",
+      "paths": [
+        "SYLLABUS.md",
+        "labs",
+        "labs/01_deep-learning-in-public-policy",
+        "labs/01_deep-learning-in-public-policy/Lab_Session_1.ipynb",
+        "labs/01_deep-learning-in-public-policy/Lab_session_1_Introduction_to_pandas.ipynb",
+        "labs/01_deep-learning-in-public-policy/NOTES.md",
+        "labs/02_deep-neural-networks-1",
+        "labs/02_deep-neural-networks-1/Lab_Session_2.ipynb",
+        "labs/03_deep-neural-networks-2",
+        "labs/03_deep-neural-networks-2/Lab_Session_3.ipynb",
+        "labs/04_computer-vision-1-cnns",
+        "labs/04_computer-vision-1-cnns/Lab_Session_4.ipynb",
+        "labs/05_computer-vision-2-modern-cnns",
+        "labs/05_computer-vision-2-modern-cnns/Lab_Session_5.ipynb",
+        "labs/06_sequence-methods-and-time-series",
+        "labs/06_sequence-methods-and-time-series/Lab_session_6_&_7.ipynb",
+        "lectures",
+        "lectures/01_deep-learning-in-public-policy",
+        "lectures/01_deep-learning-in-public-policy/Session1_E1394_DL_preLecture.pdf",
+        "lectures/01_deep-learning-in-public-policy/Session1_demo_deck.html",
+        "lectures/01_deep-learning-in-public-policy/Session1_demo_deck_files",
+        "lectures/01_deep-learning-in-public-policy/Session1_demo_deck_files/deck.css",
+        "lectures/01_deep-learning-in-public-policy/Session1_demo_deck_files/figure.svg",
+        "lectures/02_deep-neural-networks-1",
+        "lectures/02_deep-neural-networks-1/Session2_E1394_DL.pdf",
+        "lectures/03_deep-neural-networks-2",
+        "lectures/03_deep-neural-networks-2/Session3_E1394_DL_Lecture.pdf",
+        "lectures/04_computer-vision-1-cnns",
+        "lectures/04_computer-vision-1-cnns/Session4_E1394_DL_preLecture.pdf",
+        "lectures/05_computer-vision-2-modern-cnns",
+        "lectures/05_computer-vision-2-modern-cnns/Session5_E1394_DL_Lecture.pdf",
+        "lectures/06_sequence-methods-and-time-series",
+        "lectures/06_sequence-methods-and-time-series/Session6_E1394_DL_Lecture.pdf",
+        "lectures/06_sequence-methods-and-time-series/Session6_E1394_DL_preLecture.pdf",
+        "lectures/07_natural-language-processing-1",
+        "lectures/07_natural-language-processing-1/Session7_E1394_DL_preLecture.pdf",
+        "lectures/08_nlp-2-encoder-decoder-and-attention",
+        "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL SECOND SESSION.pdf",
+        "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL.pdf",
+        "readings",
+        "readings/01_deep-learning-in-public-policy",
+        "readings/01_deep-learning-in-public-policy/READINGS.md",
+        "readings/02_deep-neural-networks-1",
+        "readings/02_deep-neural-networks-1/READINGS.md",
+        "readings/03_deep-neural-networks-2",
+        "readings/03_deep-neural-networks-2/READINGS.md",
+        "readings/04_computer-vision-1-cnns",
+        "readings/04_computer-vision-1-cnns/Kerner, H., Tseng, G., Becker-Reshef, I., Nakalembe, C., Barker, B., Munshell, B., Paliyam, M. and Hosseini, M., 2020. Rapid Response Crop Maps in Data Sparse Regions. arXiv preprin.pdf",
+        "readings/04_computer-vision-1-cnns/READINGS.md",
+        "readings/05_computer-vision-2-modern-cnns",
+        "readings/05_computer-vision-2-modern-cnns/1512.02325v5.pdf",
+        "readings/05_computer-vision-2-modern-cnns/READINGS.md",
+        "readings/05_computer-vision-2-modern-cnns/U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf",
+        "readings/08_nlp-2-encoder-decoder-and-attention",
+        "readings/08_nlp-2-encoder-decoder-and-attention/Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale.pdf",
+        "readings/08_nlp-2-encoder-decoder-and-attention/Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin - Attention Is All You Need.pdf",
+        "readings/08_nlp-2-encoder-decoder-and-attention/Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
+        "readings/08_nlp-2-encoder-decoder-and-attention/READINGS.md",
+        "readings/09_further-topics",
+        "readings/09_further-topics/Gawlikowski.pdf",
+        "readings/09_further-topics/references.bib",
+        "readings/09_further-topics/seminar-notes.md",
+        "readings/11_deep-learning-in-practice",
+        "readings/11_deep-learning-in-practice/midterm-guide.pdf"
+      ]
+    }
+  ],
+  "announcements": []
+}
