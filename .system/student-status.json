@@ -771,6 +771,12 @@
       "off_schedule": false,
       "links": [
         {
+          "name": "uncertainty.py",
+          "repo": "materials",
+          "path": "code/dldemo/uncertainty.py",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/code/dldemo/uncertainty.py"
+        },
+        {
           "name": "09_further-topics",
           "repo": "materials",
           "path": "readings/09_further-topics",
@@ -1231,6 +1237,9 @@
       "repo": "materials",
       "paths": [
         "SYLLABUS.md",
+        "code",
+        "code/dldemo",
+        "code/dldemo/uncertainty.py",
         "labs",
         "labs/01_deep-learning-in-public-policy",
         "labs/01_deep-learning-in-public-policy/Lab_Session_1.ipynb",
