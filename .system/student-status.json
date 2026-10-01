@@ -858,10 +858,17 @@
       "subtitle": "",
       "details": "",
       "assignment": null,
-      "released": false,
+      "released": true,
       "tbc": false,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "09_further-topics",
+          "repo": "materials",
+          "path": "labs/09_further-topics",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/09_further-topics"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false
@@ -1328,6 +1335,8 @@
         "labs/05_computer-vision-2-modern-cnns/Lab_Session_5.ipynb",
         "labs/06_sequence-methods-and-time-series",
         "labs/06_sequence-methods-and-time-series/Lab_session_6_&_7.ipynb",
+        "labs/09_further-topics",
+        "labs/09_further-topics/Lab_Session_9_&_10.ipynb",
         "lectures",
         "lectures/01_deep-learning-in-public-policy",
         "lectures/01_deep-learning-in-public-policy/Session1_E1394_DL_preLecture.pdf",
