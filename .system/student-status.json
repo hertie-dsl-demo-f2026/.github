@@ -894,13 +894,27 @@
       "subtitle": "Policy approaches to regulate deep learning",
       "details": "Regulation, auditing and the documented harms of large models, with the EU AI Act as the worked case.\n",
       "assignment": null,
-      "released": false,
+      "released": true,
       "tbc": false,
       "off_schedule": false,
-      "links": [],
-      "readings": [],
+      "links": [
+        {
+          "name": "10_policy-approaches-and-responsible-implementation",
+          "repo": "materials",
+          "path": "readings/10_policy-approaches-and-responsible-implementation",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/10_policy-approaches-and-responsible-implementation"
+        }
+      ],
+      "readings": [
+        {
+          "name": "10_policy-approaches-and-responsible-implementation",
+          "repo": "materials",
+          "path": "readings/10_policy-approaches-and-responsible-implementation",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/10_policy-approaches-and-responsible-implementation"
+        }
+      ],
       "reading_list": "",
-      "readings_pending": true
+      "readings_pending": false
     },
     {
       "id": "lecture-11",
@@ -1422,6 +1436,12 @@
         "readings/09_further-topics/Gawlikowski.pdf",
         "readings/09_further-topics/references.bib",
         "readings/09_further-topics/seminar-notes.md",
+        "readings/10_policy-approaches-and-responsible-implementation",
+        "readings/10_policy-approaches-and-responsible-implementation/2101.03989v2.pdf",
+        "readings/10_policy-approaches-and-responsible-implementation/2108.07258v3.pdf",
+        "readings/10_policy-approaches-and-responsible-implementation/Amarasinghe, K., Rodolfa, K., Lamba, H.,  Ghani, R. (2020). Explainable machine learning for public policy Use cases, gaps, and research directions. arXiv preprint arXiv2010.14374..pdf",
+        "readings/10_policy-approaches-and-responsible-implementation/READINGS.md",
+        "readings/10_policy-approaches-and-responsible-implementation/understanding_artificial_intelligence_ethics_and_safety.pdf",
         "readings/11_deep-learning-in-practice",
         "readings/11_deep-learning-in-practice/midterm-guide.pdf"
       ]
