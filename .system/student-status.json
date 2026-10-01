@@ -1,8 +1,11 @@
 {
-  "schema": "dsl.student-status/1",
+  "schema": "dsl.student-status/2",
   "semester": "hertie-dsl-demo-f2026",
   "course_name": "Deep Learning (Demo)",
   "term_label": "Fall 2026",
+  "semester_start": "2026-08-04",
+  "semester_end": "2026-11-13",
+  "generated_at": "2026-10-01T14:02:06+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -50,6 +53,11 @@
       "label": "Drop-in",
       "colour": "#8f4a1c",
       "background": "#fbe3d6"
+    },
+    "assets": {
+      "label": "Supporting files",
+      "colour": "#4a5560",
+      "background": "#eceff1"
     },
     "other": {
       "label": "Event",
