@@ -2,10 +2,9 @@
   "schema": "dsl.student-status/2",
   "semester": "hertie-dsl-demo-f2026",
   "course_name": "Deep Learning (Demo)",
-  "term_label": "Fall 2026",
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-10-01T14:02:06+00:00",
+  "generated_at": "2026-10-06T07:21:31+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -99,27 +98,26 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "01_deep-learning-in-public-policy",
+          "name": "Session1_E1394_DL_preLecture.pdf",
           "repo": "materials",
-          "path": "lectures/01_deep-learning-in-public-policy",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/01_deep-learning-in-public-policy"
+          "path": "lectures/01_deep-learning-in-public-policy/Session1_E1394_DL_preLecture.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/01_deep-learning-in-public-policy/Session1_E1394_DL_preLecture.pdf"
         },
         {
-          "name": "01_deep-learning-in-public-policy",
+          "name": "Session1_demo_deck.html",
           "repo": "materials",
-          "path": "readings/01_deep-learning-in-public-policy",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/01_deep-learning-in-public-policy"
-        }
-      ],
-      "readings": [
+          "path": "lectures/01_deep-learning-in-public-policy/Session1_demo_deck.html",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/01_deep-learning-in-public-policy/Session1_demo_deck.html"
+        },
         {
-          "name": "01_deep-learning-in-public-policy",
+          "name": "Session1_demo_deck_files/ (2 files)",
           "repo": "materials",
-          "path": "readings/01_deep-learning-in-public-policy",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/01_deep-learning-in-public-policy"
+          "path": "lectures/01_deep-learning-in-public-policy/Session1_demo_deck_files",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/tree/main/lectures/01_deep-learning-in-public-policy/Session1_demo_deck_files"
         }
       ],
-      "reading_list": "",
+      "readings": [],
+      "reading_list": "### Session 1 readings\n\n#### Required Readings\n\n- Chatsiou, K. & Jankin Mikhaylov, S., \"Deep Learning for Political Science\", in\n  *The SAGE Handbook of Research Methods in Political Science and International\n  Relations*. Available through the Hertie library.\n\n#### Optional Readings\n\n- Goodfellow, Bengio & Courville, *Deep Learning*, ch. 1.\n  <https://www.deeplearningbook.org/contents/intro.html>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
       "readings_pending": false
     },
     {
@@ -137,10 +135,22 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "01_deep-learning-in-public-policy",
+          "name": "Lab_Session_1.ipynb",
           "repo": "materials",
-          "path": "labs/01_deep-learning-in-public-policy",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/01_deep-learning-in-public-policy"
+          "path": "labs/01_deep-learning-in-public-policy/Lab_Session_1.ipynb",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/01_deep-learning-in-public-policy/Lab_Session_1.ipynb"
+        },
+        {
+          "name": "Lab_session_1_Introduction_to_pandas.ipynb",
+          "repo": "materials",
+          "path": "labs/01_deep-learning-in-public-policy/Lab_session_1_Introduction_to_pandas.ipynb",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/01_deep-learning-in-public-policy/Lab_session_1_Introduction_to_pandas.ipynb"
+        },
+        {
+          "name": "NOTES.md",
+          "repo": "materials",
+          "path": "labs/01_deep-learning-in-public-policy/NOTES.md",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/01_deep-learning-in-public-policy/NOTES.md"
         }
       ],
       "readings": [],
@@ -162,27 +172,14 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "02_deep-neural-networks-1",
+          "name": "Session2_E1394_DL.pdf",
           "repo": "materials",
-          "path": "lectures/02_deep-neural-networks-1",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/02_deep-neural-networks-1"
-        },
-        {
-          "name": "02_deep-neural-networks-1",
-          "repo": "materials",
-          "path": "readings/02_deep-neural-networks-1",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/02_deep-neural-networks-1"
+          "path": "lectures/02_deep-neural-networks-1/Session2_E1394_DL.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/02_deep-neural-networks-1/Session2_E1394_DL.pdf"
         }
       ],
-      "readings": [
-        {
-          "name": "02_deep-neural-networks-1",
-          "repo": "materials",
-          "path": "readings/02_deep-neural-networks-1",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/02_deep-neural-networks-1"
-        }
-      ],
-      "reading_list": "",
+      "readings": [],
+      "reading_list": "### Session 2 readings\n\nWork through the interactive chapters before class - nothing to download:\n\nhttps://www.deeplearningbook.org/contents/mlp.html\nhttps://playground.tensorflow.org/",
       "readings_pending": false
     },
     {
@@ -200,10 +197,10 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "02_deep-neural-networks-1",
+          "name": "Lab_Session_2.ipynb",
           "repo": "materials",
-          "path": "labs/02_deep-neural-networks-1",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/02_deep-neural-networks-1"
+          "path": "labs/02_deep-neural-networks-1/Lab_Session_2.ipynb",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/02_deep-neural-networks-1/Lab_Session_2.ipynb"
         }
       ],
       "readings": [],
@@ -225,27 +222,14 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "03_deep-neural-networks-2",
+          "name": "Session3_E1394_DL_Lecture.pdf",
           "repo": "materials",
-          "path": "lectures/03_deep-neural-networks-2",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/03_deep-neural-networks-2"
-        },
-        {
-          "name": "03_deep-neural-networks-2",
-          "repo": "materials",
-          "path": "readings/03_deep-neural-networks-2",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/03_deep-neural-networks-2"
+          "path": "lectures/03_deep-neural-networks-2/Session3_E1394_DL_Lecture.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/03_deep-neural-networks-2/Session3_E1394_DL_Lecture.pdf"
         }
       ],
-      "readings": [
-        {
-          "name": "03_deep-neural-networks-2",
-          "repo": "materials",
-          "path": "readings/03_deep-neural-networks-2",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/03_deep-neural-networks-2"
-        }
-      ],
-      "reading_list": "",
+      "readings": [],
+      "reading_list": "### Session 3 readings\n\n#### Required Readings\n\n- Ng, A. & Ma, T., *CS229 Lecture Notes*, Stanford. Sections on backpropagation.\n  Read online: <https://cs229.stanford.edu/main_notes.pdf>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
       "readings_pending": false
     },
     {
@@ -281,10 +265,10 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "03_deep-neural-networks-2",
+          "name": "Lab_Session_3.ipynb",
           "repo": "materials",
-          "path": "labs/03_deep-neural-networks-2",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/03_deep-neural-networks-2"
+          "path": "labs/03_deep-neural-networks-2/Lab_Session_3.ipynb",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/03_deep-neural-networks-2/Lab_Session_3.ipynb"
         }
       ],
       "readings": [],
@@ -306,27 +290,27 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "04_computer-vision-1-cnns",
+          "name": "Session4_E1394_DL_preLecture.pdf",
           "repo": "materials",
-          "path": "lectures/04_computer-vision-1-cnns",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/04_computer-vision-1-cnns"
+          "path": "lectures/04_computer-vision-1-cnns/Session4_E1394_DL_preLecture.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/04_computer-vision-1-cnns/Session4_E1394_DL_preLecture.pdf"
         },
         {
-          "name": "04_computer-vision-1-cnns",
+          "name": "Kerner, H., Tseng, G., Becker-Reshef, I., Nakalembe, C., Barker, B., Munshell, B., Paliyam, M. and Hosseini, M., 2020. Rapid Response Crop Maps in Data Sparse Regions. arXiv preprin.pdf",
           "repo": "materials",
-          "path": "readings/04_computer-vision-1-cnns",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/04_computer-vision-1-cnns"
+          "path": "readings/04_computer-vision-1-cnns/Kerner, H., Tseng, G., Becker-Reshef, I., Nakalembe, C., Barker, B., Munshell, B., Paliyam, M. and Hosseini, M., 2020. Rapid Response Crop Maps in Data Sparse Regions. arXiv preprin.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/04_computer-vision-1-cnns/Kerner%2C%20H.%2C%20Tseng%2C%20G.%2C%20Becker-Reshef%2C%20I.%2C%20Nakalembe%2C%20C.%2C%20Barker%2C%20B.%2C%20Munshell%2C%20B.%2C%20Paliyam%2C%20M.%20and%20Hosseini%2C%20M.%2C%202020.%20Rapid%20Response%20Crop%20Maps%20in%20Data%20Sparse%20Regions.%20arXiv%20preprin.pdf"
         }
       ],
       "readings": [
         {
-          "name": "04_computer-vision-1-cnns",
+          "name": "Kerner, H., Tseng, G., Becker-Reshef, I., Nakalembe, C., Barker, B., Munshell, B., Paliyam, M. and Hosseini, M., 2020. Rapid Response Crop Maps in Data Sparse Regions. arXiv preprin.pdf",
           "repo": "materials",
-          "path": "readings/04_computer-vision-1-cnns",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/04_computer-vision-1-cnns"
+          "path": "readings/04_computer-vision-1-cnns/Kerner, H., Tseng, G., Becker-Reshef, I., Nakalembe, C., Barker, B., Munshell, B., Paliyam, M. and Hosseini, M., 2020. Rapid Response Crop Maps in Data Sparse Regions. arXiv preprin.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/04_computer-vision-1-cnns/Kerner%2C%20H.%2C%20Tseng%2C%20G.%2C%20Becker-Reshef%2C%20I.%2C%20Nakalembe%2C%20C.%2C%20Barker%2C%20B.%2C%20Munshell%2C%20B.%2C%20Paliyam%2C%20M.%20and%20Hosseini%2C%20M.%2C%202020.%20Rapid%20Response%20Crop%20Maps%20in%20Data%20Sparse%20Regions.%20arXiv%20preprin.pdf"
         }
       ],
-      "reading_list": "",
+      "reading_list": "### Session 4 readings\n\n#### Required Readings\n\n- Kerner et al. (2020), \"Rapid Response Crop Maps in Data Sparse Regions\".\n  PDF below, and <https://arxiv.org/abs/2006.16866>\n- Finer, M. et al. (2018), \"Combating deforestation: From satellite to intervention\",\n  *Science* 360(6395). Available through the Hertie library.\n\n#### Optional Readings\n\n- Zhang et al., *Dive into Deep Learning*, ch. 7 (CNNs).\n  <https://d2l.ai/chapter_convolutional-neural-networks/>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
       "readings_pending": false
     },
     {
@@ -344,10 +328,10 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "04_computer-vision-1-cnns",
+          "name": "Lab_Session_4.ipynb",
           "repo": "materials",
-          "path": "labs/04_computer-vision-1-cnns",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/04_computer-vision-1-cnns"
+          "path": "labs/04_computer-vision-1-cnns/Lab_Session_4.ipynb",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/04_computer-vision-1-cnns/Lab_Session_4.ipynb"
         }
       ],
       "readings": [],
@@ -369,27 +353,39 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "05_computer-vision-2-modern-cnns",
+          "name": "Session5_E1394_DL_Lecture.pdf",
           "repo": "materials",
-          "path": "lectures/05_computer-vision-2-modern-cnns",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/05_computer-vision-2-modern-cnns"
+          "path": "lectures/05_computer-vision-2-modern-cnns/Session5_E1394_DL_Lecture.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/05_computer-vision-2-modern-cnns/Session5_E1394_DL_Lecture.pdf"
         },
         {
-          "name": "05_computer-vision-2-modern-cnns",
+          "name": "1512.02325v5.pdf",
           "repo": "materials",
-          "path": "readings/05_computer-vision-2-modern-cnns",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/05_computer-vision-2-modern-cnns"
+          "path": "readings/05_computer-vision-2-modern-cnns/1512.02325v5.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/05_computer-vision-2-modern-cnns/1512.02325v5.pdf"
+        },
+        {
+          "name": "U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf",
+          "repo": "materials",
+          "path": "readings/05_computer-vision-2-modern-cnns/U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/05_computer-vision-2-modern-cnns/U-Net_%20Convolutional%20Networks%20for%20Biomedical%20Image%20Segmentation.pdf"
         }
       ],
       "readings": [
         {
-          "name": "05_computer-vision-2-modern-cnns",
+          "name": "1512.02325v5.pdf",
           "repo": "materials",
-          "path": "readings/05_computer-vision-2-modern-cnns",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/05_computer-vision-2-modern-cnns"
+          "path": "readings/05_computer-vision-2-modern-cnns/1512.02325v5.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/05_computer-vision-2-modern-cnns/1512.02325v5.pdf"
+        },
+        {
+          "name": "U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf",
+          "repo": "materials",
+          "path": "readings/05_computer-vision-2-modern-cnns/U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/05_computer-vision-2-modern-cnns/U-Net_%20Convolutional%20Networks%20for%20Biomedical%20Image%20Segmentation.pdf"
         }
       ],
-      "reading_list": "",
+      "reading_list": "### Session 5 readings\n\n#### Required Readings\n\n- Liu et al. (2016), \"SSD: Single Shot MultiBox Detector\".\n  PDF below, and <https://arxiv.org/abs/1512.02325>\n- Ronneberger et al. (2015), \"U-Net: Convolutional Networks for Biomedical Image\n  Segmentation\". PDF below, and <https://arxiv.org/abs/1505.04597>\n\n#### Optional Readings\n\n- Kruitwagen et al. (2021), \"A global inventory of photovoltaic solar energy generating\n  units\", *Nature* 598 - supplementary information. Read online at nature.com.\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
       "readings_pending": false
     },
     {
@@ -425,10 +421,10 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "05_computer-vision-2-modern-cnns",
+          "name": "Lab_Session_5.ipynb",
           "repo": "materials",
-          "path": "labs/05_computer-vision-2-modern-cnns",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/05_computer-vision-2-modern-cnns"
+          "path": "labs/05_computer-vision-2-modern-cnns/Lab_Session_5.ipynb",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/05_computer-vision-2-modern-cnns/Lab_Session_5.ipynb"
         }
       ],
       "readings": [],
@@ -450,10 +446,16 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "06_sequence-methods-and-time-series",
+          "name": "Session6_E1394_DL_Lecture.pdf",
           "repo": "materials",
-          "path": "lectures/06_sequence-methods-and-time-series",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/06_sequence-methods-and-time-series"
+          "path": "lectures/06_sequence-methods-and-time-series/Session6_E1394_DL_Lecture.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/06_sequence-methods-and-time-series/Session6_E1394_DL_Lecture.pdf"
+        },
+        {
+          "name": "Session6_E1394_DL_preLecture.pdf",
+          "repo": "materials",
+          "path": "lectures/06_sequence-methods-and-time-series/Session6_E1394_DL_preLecture.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/06_sequence-methods-and-time-series/Session6_E1394_DL_preLecture.pdf"
         }
       ],
       "readings": [],
@@ -493,10 +495,10 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "06_sequence-methods-and-time-series",
+          "name": "Lab_session_6_&_7.ipynb",
           "repo": "materials",
-          "path": "labs/06_sequence-methods-and-time-series",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/06_sequence-methods-and-time-series"
+          "path": "labs/06_sequence-methods-and-time-series/Lab_session_6_&_7.ipynb",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/06_sequence-methods-and-time-series/Lab_session_6_%26_7.ipynb"
         }
       ],
       "readings": [],
@@ -518,10 +520,10 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "07_natural-language-processing-1",
+          "name": "Session7_E1394_DL_preLecture.pdf",
           "repo": "materials",
-          "path": "lectures/07_natural-language-processing-1",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/07_natural-language-processing-1"
+          "path": "lectures/07_natural-language-processing-1/Session7_E1394_DL_preLecture.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/07_natural-language-processing-1/Session7_E1394_DL_preLecture.pdf"
         }
       ],
       "readings": [],
@@ -705,27 +707,63 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "08_nlp-2-encoder-decoder-and-attention",
+          "name": "Session8_E1394_DL SECOND SESSION.pdf",
           "repo": "materials",
-          "path": "lectures/08_nlp-2-encoder-decoder-and-attention",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/lectures/08_nlp-2-encoder-decoder-and-attention"
+          "path": "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL SECOND SESSION.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL%20SECOND%20SESSION.pdf"
         },
         {
-          "name": "08_nlp-2-encoder-decoder-and-attention",
+          "name": "Session8_E1394_DL.pdf",
           "repo": "materials",
-          "path": "readings/08_nlp-2-encoder-decoder-and-attention",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/08_nlp-2-encoder-decoder-and-attention"
+          "path": "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL.pdf"
+        },
+        {
+          "name": "slides/ (51 files)",
+          "repo": "materials",
+          "path": "lectures/08_nlp-2-encoder-decoder-and-attention/slides",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/tree/main/lectures/08_nlp-2-encoder-decoder-and-attention/slides"
+        },
+        {
+          "name": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale.pdf",
+          "repo": "materials",
+          "path": "readings/08_nlp-2-encoder-decoder-and-attention/Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/Alexey%20Dosovitskiy%2C%20Lucas%20Beyer%2C%20Alexander%20Kolesnikov%2C%20Dirk%20Weissenborn%20-%20An%20Image%20is%20Worth%2016x16%20Words%20Transformers%20for%20Image%20Recognition%20at%20Scale.pdf"
+        },
+        {
+          "name": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin - Attention Is All You Need.pdf",
+          "repo": "materials",
+          "path": "readings/08_nlp-2-encoder-decoder-and-attention/Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin - Attention Is All You Need.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/Ashish%20Vaswani%2C%20Noam%20Shazeer%2C%20Niki%20Parmar%2C%20Jakob%20Uszkoreit%2C%20Llion%20Jones%2C%20Aidan%20N.%20Gomez%2C%20Lukasz%20Kaiser%2C%20Illia%20Polosukhin%20-%20Attention%20Is%20All%20You%20Need.pdf"
+        },
+        {
+          "name": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
+          "repo": "materials",
+          "path": "readings/08_nlp-2-encoder-decoder-and-attention/Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/Jacob%20Devlin%2C%20Ming-Wei%20Chang%2C%20Kenton%20Lee%2C%20Kristina%20Toutanova%20-%20BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding.pdf"
         }
       ],
       "readings": [
         {
-          "name": "08_nlp-2-encoder-decoder-and-attention",
+          "name": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale.pdf",
           "repo": "materials",
-          "path": "readings/08_nlp-2-encoder-decoder-and-attention",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/08_nlp-2-encoder-decoder-and-attention"
+          "path": "readings/08_nlp-2-encoder-decoder-and-attention/Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/Alexey%20Dosovitskiy%2C%20Lucas%20Beyer%2C%20Alexander%20Kolesnikov%2C%20Dirk%20Weissenborn%20-%20An%20Image%20is%20Worth%2016x16%20Words%20Transformers%20for%20Image%20Recognition%20at%20Scale.pdf"
+        },
+        {
+          "name": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin - Attention Is All You Need.pdf",
+          "repo": "materials",
+          "path": "readings/08_nlp-2-encoder-decoder-and-attention/Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin - Attention Is All You Need.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/Ashish%20Vaswani%2C%20Noam%20Shazeer%2C%20Niki%20Parmar%2C%20Jakob%20Uszkoreit%2C%20Llion%20Jones%2C%20Aidan%20N.%20Gomez%2C%20Lukasz%20Kaiser%2C%20Illia%20Polosukhin%20-%20Attention%20Is%20All%20You%20Need.pdf"
+        },
+        {
+          "name": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
+          "repo": "materials",
+          "path": "readings/08_nlp-2-encoder-decoder-and-attention/Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/Jacob%20Devlin%2C%20Ming-Wei%20Chang%2C%20Kenton%20Lee%2C%20Kristina%20Toutanova%20-%20BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding.pdf"
         }
       ],
-      "reading_list": "",
+      "reading_list": "### Session 8 readings\n\n#### Required Readings\n\n- Vaswani et al. (2017), \"Attention Is All You Need\". doi:10.48550/arXiv.1706.03762\n- Devlin et al. (2019), \"BERT: Pre-training of Deep Bidirectional Transformers\".\n- Dosovitskiy et al. (2021), \"An Image is Worth 16x16 Words\". All three PDFs below.",
       "readings_pending": false
     },
     {
@@ -800,21 +838,45 @@
           "name": "uncertainty.py",
           "repo": "materials",
           "path": "code/dldemo/uncertainty.py",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/code/dldemo/uncertainty.py"
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/code/dldemo/uncertainty.py"
         },
         {
-          "name": "09_further-topics",
+          "name": "Gawlikowski.pdf",
           "repo": "materials",
-          "path": "readings/09_further-topics",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/09_further-topics"
+          "path": "readings/09_further-topics/Gawlikowski.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/09_further-topics/Gawlikowski.pdf"
+        },
+        {
+          "name": "references.bib",
+          "repo": "materials",
+          "path": "readings/09_further-topics/references.bib",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/09_further-topics/references.bib"
+        },
+        {
+          "name": "seminar-notes.md",
+          "repo": "materials",
+          "path": "readings/09_further-topics/seminar-notes.md",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/09_further-topics/seminar-notes.md"
         }
       ],
       "readings": [
         {
-          "name": "09_further-topics",
+          "name": "Gawlikowski.pdf",
           "repo": "materials",
-          "path": "readings/09_further-topics",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/09_further-topics"
+          "path": "readings/09_further-topics/Gawlikowski.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/09_further-topics/Gawlikowski.pdf"
+        },
+        {
+          "name": "references.bib",
+          "repo": "materials",
+          "path": "readings/09_further-topics/references.bib",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/09_further-topics/references.bib"
+        },
+        {
+          "name": "seminar-notes.md",
+          "repo": "materials",
+          "path": "readings/09_further-topics/seminar-notes.md",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/09_further-topics/seminar-notes.md"
         }
       ],
       "reading_list": "",
@@ -871,10 +933,10 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "09_further-topics",
+          "name": "Lab_Session_9_&_10.ipynb",
           "repo": "materials",
-          "path": "labs/09_further-topics",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/labs/09_further-topics"
+          "path": "labs/09_further-topics/Lab_Session_9_&_10.ipynb",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/09_further-topics/Lab_Session_9_%26_10.ipynb"
         }
       ],
       "readings": [],
@@ -914,21 +976,57 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "10_policy-approaches-and-responsible-implementation",
+          "name": "2101.03989v2.pdf",
           "repo": "materials",
-          "path": "readings/10_policy-approaches-and-responsible-implementation",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/10_policy-approaches-and-responsible-implementation"
+          "path": "readings/10_policy-approaches-and-responsible-implementation/2101.03989v2.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/2101.03989v2.pdf"
+        },
+        {
+          "name": "2108.07258v3.pdf",
+          "repo": "materials",
+          "path": "readings/10_policy-approaches-and-responsible-implementation/2108.07258v3.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/2108.07258v3.pdf"
+        },
+        {
+          "name": "Amarasinghe, K., Rodolfa, K., Lamba, H.,  Ghani, R. (2020). Explainable machine learning for public policy Use cases, gaps, and research directions. arXiv preprint arXiv2010.14374..pdf",
+          "repo": "materials",
+          "path": "readings/10_policy-approaches-and-responsible-implementation/Amarasinghe, K., Rodolfa, K., Lamba, H.,  Ghani, R. (2020). Explainable machine learning for public policy Use cases, gaps, and research directions. arXiv preprint arXiv2010.14374..pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/Amarasinghe%2C%20K.%2C%20Rodolfa%2C%20K.%2C%20Lamba%2C%20H.%2C%20%20Ghani%2C%20R.%20%282020%29.%20Explainable%20machine%20learning%20for%20public%20policy%20Use%20cases%2C%20gaps%2C%20and%20research%20directions.%20arXiv%20preprint%20arXiv2010.14374..pdf"
+        },
+        {
+          "name": "understanding_artificial_intelligence_ethics_and_safety.pdf",
+          "repo": "materials",
+          "path": "readings/10_policy-approaches-and-responsible-implementation/understanding_artificial_intelligence_ethics_and_safety.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/understanding_artificial_intelligence_ethics_and_safety.pdf"
         }
       ],
       "readings": [
         {
-          "name": "10_policy-approaches-and-responsible-implementation",
+          "name": "2101.03989v2.pdf",
           "repo": "materials",
-          "path": "readings/10_policy-approaches-and-responsible-implementation",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/10_policy-approaches-and-responsible-implementation"
+          "path": "readings/10_policy-approaches-and-responsible-implementation/2101.03989v2.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/2101.03989v2.pdf"
+        },
+        {
+          "name": "2108.07258v3.pdf",
+          "repo": "materials",
+          "path": "readings/10_policy-approaches-and-responsible-implementation/2108.07258v3.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/2108.07258v3.pdf"
+        },
+        {
+          "name": "Amarasinghe, K., Rodolfa, K., Lamba, H.,  Ghani, R. (2020). Explainable machine learning for public policy Use cases, gaps, and research directions. arXiv preprint arXiv2010.14374..pdf",
+          "repo": "materials",
+          "path": "readings/10_policy-approaches-and-responsible-implementation/Amarasinghe, K., Rodolfa, K., Lamba, H.,  Ghani, R. (2020). Explainable machine learning for public policy Use cases, gaps, and research directions. arXiv preprint arXiv2010.14374..pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/Amarasinghe%2C%20K.%2C%20Rodolfa%2C%20K.%2C%20Lamba%2C%20H.%2C%20%20Ghani%2C%20R.%20%282020%29.%20Explainable%20machine%20learning%20for%20public%20policy%20Use%20cases%2C%20gaps%2C%20and%20research%20directions.%20arXiv%20preprint%20arXiv2010.14374..pdf"
+        },
+        {
+          "name": "understanding_artificial_intelligence_ethics_and_safety.pdf",
+          "repo": "materials",
+          "path": "readings/10_policy-approaches-and-responsible-implementation/understanding_artificial_intelligence_ethics_and_safety.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/understanding_artificial_intelligence_ethics_and_safety.pdf"
         }
       ],
-      "reading_list": "",
+      "reading_list": "### Session 10 readings\n\n#### Required Readings\n\n- Bender et al. (2021), \"On the Dangers of Stochastic Parrots\", ACM FAccT '21.\n  Available through the ACM Digital Library.\n- Kaack et al. (2022), \"Aligning artificial intelligence with climate change mitigation\",\n  *Nature Climate Change* 12. Available through the Hertie library.\n- Amarasinghe et al. (2020), \"Explainable machine learning for public policy\".\n  PDF below, and <https://arxiv.org/abs/2010.14374>\n- Leslie, D., *Understanding artificial intelligence ethics and safety*, Alan Turing\n  Institute. PDF below.\n- Bommasani et al., \"On the Opportunities and Risks of Foundation Models\". PDF below.\n- Lavin et al., \"Technology Readiness Levels for Machine Learning Systems\". PDF below.\n- *HAI AI Index Report 2024*, Stanford. Too large to host; read online:\n  <https://aiindex.stanford.edu/report/>\n\n#### Optional Readings\n\n- EU AI Act, final text. <https://artificialintelligenceact.eu/the-act/>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
       "readings_pending": false
     },
     {
@@ -946,18 +1044,18 @@
       "off_schedule": false,
       "links": [
         {
-          "name": "11_deep-learning-in-practice",
+          "name": "midterm-guide.pdf",
           "repo": "materials",
-          "path": "readings/11_deep-learning-in-practice",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/11_deep-learning-in-practice"
+          "path": "readings/11_deep-learning-in-practice/midterm-guide.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/11_deep-learning-in-practice/midterm-guide.pdf"
         }
       ],
       "readings": [
         {
-          "name": "11_deep-learning-in-practice",
+          "name": "midterm-guide.pdf",
           "repo": "materials",
-          "path": "readings/11_deep-learning-in-practice",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/HEAD/readings/11_deep-learning-in-practice"
+          "path": "readings/11_deep-learning-in-practice/midterm-guide.pdf",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/11_deep-learning-in-practice/midterm-guide.pdf"
         }
       ],
       "reading_list": "",
@@ -1319,150 +1417,6 @@
   ],
   "materials_repos": [
     "materials"
-  ],
-  "materials_index": [
-    {
-      "repo": "materials",
-      "paths": [
-        "SYLLABUS.md",
-        "code",
-        "code/dldemo",
-        "code/dldemo/uncertainty.py",
-        "labs",
-        "labs/01_deep-learning-in-public-policy",
-        "labs/01_deep-learning-in-public-policy/Lab_Session_1.ipynb",
-        "labs/01_deep-learning-in-public-policy/Lab_session_1_Introduction_to_pandas.ipynb",
-        "labs/01_deep-learning-in-public-policy/NOTES.md",
-        "labs/02_deep-neural-networks-1",
-        "labs/02_deep-neural-networks-1/Lab_Session_2.ipynb",
-        "labs/03_deep-neural-networks-2",
-        "labs/03_deep-neural-networks-2/Lab_Session_3.ipynb",
-        "labs/04_computer-vision-1-cnns",
-        "labs/04_computer-vision-1-cnns/Lab_Session_4.ipynb",
-        "labs/05_computer-vision-2-modern-cnns",
-        "labs/05_computer-vision-2-modern-cnns/Lab_Session_5.ipynb",
-        "labs/06_sequence-methods-and-time-series",
-        "labs/06_sequence-methods-and-time-series/Lab_session_6_&_7.ipynb",
-        "labs/09_further-topics",
-        "labs/09_further-topics/Lab_Session_9_&_10.ipynb",
-        "lectures",
-        "lectures/01_deep-learning-in-public-policy",
-        "lectures/01_deep-learning-in-public-policy/Session1_E1394_DL_preLecture.pdf",
-        "lectures/01_deep-learning-in-public-policy/Session1_demo_deck.html",
-        "lectures/01_deep-learning-in-public-policy/Session1_demo_deck_files",
-        "lectures/01_deep-learning-in-public-policy/Session1_demo_deck_files/deck.css",
-        "lectures/01_deep-learning-in-public-policy/Session1_demo_deck_files/figure.svg",
-        "lectures/02_deep-neural-networks-1",
-        "lectures/02_deep-neural-networks-1/Session2_E1394_DL.pdf",
-        "lectures/03_deep-neural-networks-2",
-        "lectures/03_deep-neural-networks-2/Session3_E1394_DL_Lecture.pdf",
-        "lectures/04_computer-vision-1-cnns",
-        "lectures/04_computer-vision-1-cnns/Session4_E1394_DL_preLecture.pdf",
-        "lectures/05_computer-vision-2-modern-cnns",
-        "lectures/05_computer-vision-2-modern-cnns/Session5_E1394_DL_Lecture.pdf",
-        "lectures/06_sequence-methods-and-time-series",
-        "lectures/06_sequence-methods-and-time-series/Session6_E1394_DL_Lecture.pdf",
-        "lectures/06_sequence-methods-and-time-series/Session6_E1394_DL_preLecture.pdf",
-        "lectures/07_natural-language-processing-1",
-        "lectures/07_natural-language-processing-1/Session7_E1394_DL_preLecture.pdf",
-        "lectures/08_nlp-2-encoder-decoder-and-attention",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL SECOND SESSION.pdf",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL.pdf",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/index.html",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/reset.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/reveal.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/reveal.esm.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/reveal.esm.js.map",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/reveal.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/reveal.js.map",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/beige.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/black-contrast.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/black.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/blood.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/dracula.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/league-gothic",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/league-gothic/LICENSE",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/league-gothic/league-gothic.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/league-gothic/league-gothic.eot",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/league-gothic/league-gothic.ttf",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/league-gothic/league-gothic.woff",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/LICENSE",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.eot",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.ttf",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.woff",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.eot",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.ttf",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.woff",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.eot",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.ttf",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.woff",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.eot",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.ttf",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.woff",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/league.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/moon.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/night.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/serif.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/simple.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/sky.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/solarized.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/white-contrast.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/white.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/dist/theme/white_contrast_compact_verbatim_headers.css",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/notes",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/notes/notes.esm.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/notes/notes.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/notes/plugin.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/notes/speaker-view.html",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/search",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/search/plugin.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/search/search.esm.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/search/search.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/zoom",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/zoom/plugin.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/zoom/zoom.esm.js",
-        "lectures/08_nlp-2-encoder-decoder-and-attention/slides/reveal.js/plugin/zoom/zoom.js",
-        "readings",
-        "readings/01_deep-learning-in-public-policy",
-        "readings/01_deep-learning-in-public-policy/READINGS.md",
-        "readings/02_deep-neural-networks-1",
-        "readings/02_deep-neural-networks-1/READINGS.md",
-        "readings/03_deep-neural-networks-2",
-        "readings/03_deep-neural-networks-2/READINGS.md",
-        "readings/04_computer-vision-1-cnns",
-        "readings/04_computer-vision-1-cnns/Kerner, H., Tseng, G., Becker-Reshef, I., Nakalembe, C., Barker, B., Munshell, B., Paliyam, M. and Hosseini, M., 2020. Rapid Response Crop Maps in Data Sparse Regions. arXiv preprin.pdf",
-        "readings/04_computer-vision-1-cnns/READINGS.md",
-        "readings/05_computer-vision-2-modern-cnns",
-        "readings/05_computer-vision-2-modern-cnns/1512.02325v5.pdf",
-        "readings/05_computer-vision-2-modern-cnns/READINGS.md",
-        "readings/05_computer-vision-2-modern-cnns/U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf",
-        "readings/08_nlp-2-encoder-decoder-and-attention",
-        "readings/08_nlp-2-encoder-decoder-and-attention/Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale.pdf",
-        "readings/08_nlp-2-encoder-decoder-and-attention/Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin - Attention Is All You Need.pdf",
-        "readings/08_nlp-2-encoder-decoder-and-attention/Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
-        "readings/08_nlp-2-encoder-decoder-and-attention/READINGS.md",
-        "readings/09_further-topics",
-        "readings/09_further-topics/Gawlikowski.pdf",
-        "readings/09_further-topics/references.bib",
-        "readings/09_further-topics/seminar-notes.md",
-        "readings/10_policy-approaches-and-responsible-implementation",
-        "readings/10_policy-approaches-and-responsible-implementation/2101.03989v2.pdf",
-        "readings/10_policy-approaches-and-responsible-implementation/2108.07258v3.pdf",
-        "readings/10_policy-approaches-and-responsible-implementation/Amarasinghe, K., Rodolfa, K., Lamba, H.,  Ghani, R. (2020). Explainable machine learning for public policy Use cases, gaps, and research directions. arXiv preprint arXiv2010.14374..pdf",
-        "readings/10_policy-approaches-and-responsible-implementation/READINGS.md",
-        "readings/10_policy-approaches-and-responsible-implementation/understanding_artificial_intelligence_ethics_and_safety.pdf",
-        "readings/11_deep-learning-in-practice",
-        "readings/11_deep-learning-in-practice/midterm-guide.pdf"
-      ]
-    }
   ],
   "announcements": []
 }
