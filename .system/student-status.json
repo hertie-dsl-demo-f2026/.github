@@ -4,7 +4,7 @@
   "course_name": "Deep Learning (Demo)",
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-10-06T07:21:31+00:00",
+  "generated_at": "2026-10-06T08:01:16+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -975,6 +975,12 @@
       "tbc": false,
       "off_schedule": false,
       "links": [
+        {
+          "name": "audit.py",
+          "repo": "materials",
+          "path": "code/dldemo/audit.py",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/code/dldemo/audit.py"
+        },
         {
           "name": "2101.03989v2.pdf",
           "repo": "materials",
