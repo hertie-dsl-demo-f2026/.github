@@ -6,7 +6,7 @@
   "student_console": true,
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-10-12T20:05:35+00:00",
+  "generated_at": "2026-10-12T21:16:55+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -81,7 +81,6 @@
     {
       "id": "term-start",
       "kind": "term_date",
-      "number": null,
       "when": "2026-08-04",
       "all_day": true,
       "title": "Semester starts",
@@ -102,7 +101,6 @@
     {
       "id": "lecture-01",
       "kind": "lecture",
-      "number": 1,
       "when": "2026-08-04T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 1",
@@ -143,7 +141,6 @@
     {
       "id": "lab-01",
       "kind": "lab",
-      "number": 1,
       "when": "2026-08-06T14:00:00+02:00",
       "all_day": false,
       "title": "Lab 1",
@@ -183,7 +180,6 @@
     {
       "id": "lecture-02",
       "kind": "lecture",
-      "number": 2,
       "when": "2026-08-11T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 2",
@@ -212,7 +208,6 @@
     {
       "id": "lab-02",
       "kind": "lab",
-      "number": 2,
       "when": "2026-08-13T14:00:00+02:00",
       "all_day": false,
       "title": "Lab 2",
@@ -240,7 +235,6 @@
     {
       "id": "lecture-03",
       "kind": "lecture",
-      "number": 3,
       "when": "2026-08-18T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 3",
@@ -269,7 +263,6 @@
     {
       "id": "assignment-1:handout",
       "kind": "assignment",
-      "number": null,
       "when": "2026-08-18T14:00:00+02:00",
       "all_day": false,
       "title": "Assignment 1",
@@ -290,7 +283,6 @@
     {
       "id": "lab-03",
       "kind": "lab",
-      "number": 3,
       "when": "2026-08-20T14:00:00+02:00",
       "all_day": false,
       "title": "Lab 3",
@@ -318,7 +310,6 @@
     {
       "id": "lecture-04",
       "kind": "lecture",
-      "number": 4,
       "when": "2026-08-25T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 4",
@@ -360,7 +351,6 @@
     {
       "id": "lab-04",
       "kind": "lab",
-      "number": 4,
       "when": "2026-08-27T14:00:00+02:00",
       "all_day": false,
       "title": "Lab 4",
@@ -388,7 +378,6 @@
     {
       "id": "lecture-05",
       "kind": "lecture",
-      "number": 5,
       "when": "2026-09-01T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 5",
@@ -442,7 +431,6 @@
     {
       "id": "assignment-2:handout",
       "kind": "assignment",
-      "number": null,
       "when": "2026-09-01T14:00:00+02:00",
       "all_day": false,
       "title": "Assignment 2",
@@ -463,7 +451,6 @@
     {
       "id": "lab-05",
       "kind": "lab",
-      "number": 5,
       "when": "2026-09-03T14:00:00+02:00",
       "all_day": false,
       "title": "Lab 5",
@@ -491,7 +478,6 @@
     {
       "id": "lecture-06",
       "kind": "lecture",
-      "number": 6,
       "when": "2026-09-08T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 6",
@@ -525,7 +511,6 @@
     {
       "id": "assignment-1:due",
       "kind": "due",
-      "number": null,
       "when": "2026-09-08T23:59:00+02:00",
       "all_day": false,
       "title": "Assignment 1",
@@ -546,7 +531,6 @@
     {
       "id": "lab-06",
       "kind": "lab",
-      "number": 6,
       "when": "2026-09-10T14:00:00+02:00",
       "all_day": false,
       "title": "Lab 6",
@@ -574,7 +558,6 @@
     {
       "id": "lecture-07",
       "kind": "lecture",
-      "number": 7,
       "when": "2026-09-15T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 7",
@@ -602,7 +585,6 @@
     {
       "id": "assignment-3-project:handout",
       "kind": "assignment",
-      "number": null,
       "when": "2026-09-15T14:00:00+02:00",
       "all_day": false,
       "title": "Assignment 3 Project",
@@ -623,7 +605,6 @@
     {
       "id": "assignment-4:handout",
       "kind": "assignment",
-      "number": null,
       "when": "2026-09-17T04:35:00+02:00",
       "all_day": false,
       "title": "Assignment 4",
@@ -644,7 +625,6 @@
     {
       "id": "assignment-5:handout",
       "kind": "assignment",
-      "number": null,
       "when": "2026-09-17T04:35:00+02:00",
       "all_day": false,
       "title": "Assignment 5",
@@ -665,7 +645,6 @@
     {
       "id": "assignment-6:handout",
       "kind": "assignment",
-      "number": null,
       "when": "2026-09-17T04:35:00+02:00",
       "all_day": false,
       "title": "Assignment 6",
@@ -686,7 +665,6 @@
     {
       "id": "assignment-7:handout",
       "kind": "assignment",
-      "number": null,
       "when": "2026-09-17T04:35:00+02:00",
       "all_day": false,
       "title": "Assignment 7",
@@ -707,7 +685,6 @@
     {
       "id": "assignment-4:due",
       "kind": "due",
-      "number": null,
       "when": "2026-09-20T23:59:00+02:00",
       "all_day": false,
       "title": "Assignment 4",
@@ -728,7 +705,6 @@
     {
       "id": "assignment-5:due",
       "kind": "due",
-      "number": null,
       "when": "2026-09-20T23:59:00+02:00",
       "all_day": false,
       "title": "Assignment 5",
@@ -749,7 +725,6 @@
     {
       "id": "assignment-6:due",
       "kind": "due",
-      "number": null,
       "when": "2026-09-20T23:59:00+02:00",
       "all_day": false,
       "title": "Assignment 6",
@@ -770,7 +745,6 @@
     {
       "id": "assignment-7:due",
       "kind": "due",
-      "number": null,
       "when": "2026-09-20T23:59:00+02:00",
       "all_day": false,
       "title": "Assignment 7",
@@ -791,7 +765,6 @@
     {
       "id": "lecture-08",
       "kind": "lecture",
-      "number": 8,
       "when": "2026-09-22T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 8",
@@ -869,7 +842,6 @@
     {
       "id": "midterm-exam",
       "kind": "exam",
-      "number": null,
       "when": "2026-09-22T10:00:00+02:00",
       "all_day": false,
       "title": "Midterm Exam",
@@ -890,7 +862,6 @@
     {
       "id": "guest-lecture",
       "kind": "special_event",
-      "number": null,
       "when": "2026-09-22T16:00:00+02:00",
       "all_day": false,
       "title": "Guest lecture: deep learning at the Federal Statistical Office",
@@ -911,7 +882,6 @@
     {
       "id": "assignment-8:handout",
       "kind": "assignment",
-      "number": null,
       "when": "2026-09-23T14:00:00+02:00",
       "all_day": false,
       "title": "Assignment 8",
@@ -932,7 +902,6 @@
     {
       "id": "lecture-09",
       "kind": "lecture",
-      "number": 9,
       "when": "2026-09-29T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 9",
@@ -998,7 +967,6 @@
     {
       "id": "assignment-2:due",
       "kind": "due",
-      "number": null,
       "when": "2026-09-29T23:59:00+02:00",
       "all_day": false,
       "title": "Assignment 2",
@@ -1019,7 +987,6 @@
     {
       "id": "assignment-8:due",
       "kind": "due",
-      "number": null,
       "when": "2026-09-29T23:59:00+02:00",
       "all_day": false,
       "title": "Assignment 8",
@@ -1040,7 +1007,6 @@
     {
       "id": "lab-09",
       "kind": "lab",
-      "number": 9,
       "when": "2026-10-01T14:00:00+02:00",
       "all_day": false,
       "title": "Lab 9",
@@ -1068,7 +1034,6 @@
     {
       "id": "reading-week",
       "kind": "special_event",
-      "number": null,
       "when": "2026-10-06",
       "all_day": true,
       "title": "Reading week - no class",
@@ -1089,7 +1054,6 @@
     {
       "id": "lecture-10",
       "kind": "lecture",
-      "number": 10,
       "when": "2026-10-06T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 10",
@@ -1167,7 +1131,6 @@
     {
       "id": "lecture-11",
       "kind": "lecture",
-      "number": 11,
       "when": "2026-10-13T10:00:00+02:00",
       "all_day": false,
       "title": "Lecture 11",
@@ -1203,7 +1166,6 @@
     {
       "id": "lab-11",
       "kind": "lab",
-      "number": 11,
       "when": "2026-10-15T14:00:00+02:00",
       "all_day": false,
       "title": "Lab 11",
@@ -1224,7 +1186,6 @@
     {
       "id": "lecture-12",
       "kind": "drop-in",
-      "number": 1,
       "when": "2026-10-20T10:00:00+02:00",
       "all_day": false,
       "title": "Drop-in 1",
@@ -1245,7 +1206,6 @@
     {
       "id": "assignment-3-project:due",
       "kind": "due",
-      "number": null,
       "when": "2026-10-23T23:59:00+02:00",
       "all_day": false,
       "title": "Assignment 3 Project",
@@ -1266,7 +1226,6 @@
     {
       "id": "final-exam",
       "kind": "exam",
-      "number": null,
       "when": "2026-11-10T10:00:00+01:00",
       "all_day": false,
       "title": "Final Exam",
@@ -1287,7 +1246,6 @@
     {
       "id": "resit-exam",
       "kind": "exam",
-      "number": null,
       "when": "2026-11-13",
       "all_day": true,
       "title": "Resit Exam",
@@ -1308,7 +1266,6 @@
     {
       "id": "term-end",
       "kind": "term_date",
-      "number": null,
       "when": "2026-11-13",
       "all_day": true,
       "title": "Semester ends",
@@ -1329,7 +1286,6 @@
     {
       "id": "semester-archived",
       "kind": "special_event",
-      "number": null,
       "when": "2027-01-12",
       "all_day": true,
       "title": "Semester archived",
