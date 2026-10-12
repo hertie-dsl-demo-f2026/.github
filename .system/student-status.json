@@ -2,12 +2,15 @@
   "schema": "dsl.student-status/2",
   "semester": "hertie-dsl-demo-f2026",
   "course_name": "Deep Learning (Demo)",
+  "course_description": "A public demonstration course run by the Hertie Data Science Lab - one course org and two cohort orgs showing the teaching toolkit end to end.",
+  "student_console": false,
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-10-08T18:30:14+00:00",
+  "generated_at": "2026-10-12T17:40:35+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
+  "previous_offerings": [],
   "syllabus": {
     "repo": "materials",
     "path": "SYLLABUS.md"
@@ -16,52 +19,62 @@
     "lecture": {
       "label": "Lecture",
       "colour": "#a94442",
-      "background": "#f2dede"
+      "background": "#f2dede",
+      "tab": true
     },
     "lab": {
       "label": "Lab",
       "colour": "#3c763d",
-      "background": "#dff0d8"
+      "background": "#dff0d8",
+      "tab": true
     },
     "readings": {
       "label": "Readings",
       "colour": "#2b6a60",
-      "background": "#dcefec"
+      "background": "#dcefec",
+      "tab": true
     },
     "exam": {
       "label": "Exam",
       "colour": "#2b2f36",
-      "background": "#e6e8ec"
+      "background": "#e6e8ec",
+      "tab": true
     },
     "assignment": {
       "label": "Assignment",
       "colour": "#1f5fa8",
-      "background": "#d6e6f7"
+      "background": "#d6e6f7",
+      "tab": false
     },
     "term": {
       "label": "Semester",
       "colour": "#7b3fb8",
-      "background": "#ead9f6"
+      "background": "#ead9f6",
+      "tab": false
     },
     "archive": {
       "label": "Archive",
       "colour": "#7d6230",
-      "background": "#fbf2d5"
+      "background": "#fbf2d5",
+      "tab": false
     },
     "drop-in": {
       "label": "Drop-in",
       "colour": "#8f4a1c",
-      "background": "#fbe3d6"
+      "background": "#fbe3d6",
+      "tab": true
     },
     "assets": {
       "label": "Supporting files",
       "colour": "#4a5560",
-      "background": "#eceff1"
+      "background": "#eceff1",
+      "tab": true
     },
     "other": {
       "label": "Event",
       "colour": "#7d6230",
-      "background": "#fbf2d5"
+      "background": "#fbf2d5",
+      "tab": true
     }
   },
   "rows": [
@@ -81,7 +94,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "term_date"
+      ]
     },
     {
       "id": "lecture-01",
@@ -118,7 +134,11 @@
       ],
       "readings": [],
       "reading_list": "### Session 1 readings\n\n#### Required Readings\n\n- Chatsiou, K. & Jankin Mikhaylov, S., \"Deep Learning for Political Science\", in\n  *The SAGE Handbook of Research Methods in Political Science and International\n  Relations*. Available through the Hertie library.\n\n#### Optional Readings\n\n- Goodfellow, Bengio & Courville, *Deep Learning*, ch. 1.\n  <https://www.deeplearningbook.org/contents/intro.html>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "lab-01",
@@ -155,7 +175,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture-02",
@@ -180,7 +203,11 @@
       ],
       "readings": [],
       "reading_list": "### Session 2 readings\n\nWork through the interactive chapters before class - nothing to download:\n\nhttps://www.deeplearningbook.org/contents/mlp.html\nhttps://playground.tensorflow.org/",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "lab-02",
@@ -205,7 +232,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture-03",
@@ -230,7 +260,11 @@
       ],
       "readings": [],
       "reading_list": "### Session 3 readings\n\n#### Required Readings\n\n- Ng, A. & Ma, T., *CS229 Lecture Notes*, Stanford. Sections on backpropagation.\n  Read online: <https://cs229.stanford.edu/main_notes.pdf>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "assignment-1:handout",
@@ -248,7 +282,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "lab-03",
@@ -273,7 +310,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture-04",
@@ -311,7 +351,11 @@
         }
       ],
       "reading_list": "### Session 4 readings\n\n#### Required Readings\n\n- Kerner et al. (2020), \"Rapid Response Crop Maps in Data Sparse Regions\".\n  PDF below, and <https://arxiv.org/abs/2006.16866>\n- Finer, M. et al. (2018), \"Combating deforestation: From satellite to intervention\",\n  *Science* 360(6395). Available through the Hertie library.\n\n#### Optional Readings\n\n- Zhang et al., *Dive into Deep Learning*, ch. 7 (CNNs).\n  <https://d2l.ai/chapter_convolutional-neural-networks/>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "lab-04",
@@ -336,7 +380,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture-05",
@@ -386,7 +433,11 @@
         }
       ],
       "reading_list": "### Session 5 readings\n\n#### Required Readings\n\n- Liu et al. (2016), \"SSD: Single Shot MultiBox Detector\".\n  PDF below, and <https://arxiv.org/abs/1512.02325>\n- Ronneberger et al. (2015), \"U-Net: Convolutional Networks for Biomedical Image\n  Segmentation\". PDF below, and <https://arxiv.org/abs/1505.04597>\n\n#### Optional Readings\n\n- Kruitwagen et al. (2021), \"A global inventory of photovoltaic solar energy generating\n  units\", *Nature* 598 - supplementary information. Read online at nature.com.\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "assignment-2:handout",
@@ -404,7 +455,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "lab-05",
@@ -429,7 +483,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture-06",
@@ -460,7 +517,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture"
+      ]
     },
     {
       "id": "assignment-1:due",
@@ -478,7 +538,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "lab-06",
@@ -503,7 +566,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture-07",
@@ -528,7 +594,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture"
+      ]
     },
     {
       "id": "assignment-3-project:handout",
@@ -546,7 +615,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "assignment-4:handout",
@@ -564,7 +636,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "assignment-5:handout",
@@ -582,7 +657,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "assignment-6:handout",
@@ -600,7 +678,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "assignment-7:handout",
@@ -618,7 +699,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "assignment-4:due",
@@ -636,7 +720,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "assignment-5:due",
@@ -654,7 +741,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "assignment-6:due",
@@ -672,7 +762,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "assignment-7:due",
@@ -690,7 +783,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "lecture-08",
@@ -764,7 +860,11 @@
         }
       ],
       "reading_list": "### Session 8 readings\n\n#### Required Readings\n\n- Vaswani et al. (2017), \"Attention Is All You Need\". doi:10.48550/arXiv.1706.03762\n- Devlin et al. (2019), \"BERT: Pre-training of Deep Bidirectional Transformers\".\n- Dosovitskiy et al. (2021), \"An Image is Worth 16x16 Words\". All three PDFs below.",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "midterm-exam",
@@ -782,7 +882,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "exam"
+      ]
     },
     {
       "id": "guest-lecture",
@@ -800,7 +903,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
+      ]
     },
     {
       "id": "assignment-8:handout",
@@ -818,7 +924,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
     },
     {
       "id": "lecture-09",
@@ -880,7 +989,11 @@
         }
       ],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "assignment-2:due",
@@ -898,7 +1011,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "assignment-8:due",
@@ -916,7 +1032,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "lab-09",
@@ -941,7 +1060,10 @@
       ],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "reading-week",
@@ -959,7 +1081,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
+      ]
     },
     {
       "id": "lecture-10",
@@ -1033,7 +1158,11 @@
         }
       ],
       "reading_list": "### Session 10 readings\n\n#### Required Readings\n\n- Bender et al. (2021), \"On the Dangers of Stochastic Parrots\", ACM FAccT '21.\n  Available through the ACM Digital Library.\n- Kaack et al. (2022), \"Aligning artificial intelligence with climate change mitigation\",\n  *Nature Climate Change* 12. Available through the Hertie library.\n- Amarasinghe et al. (2020), \"Explainable machine learning for public policy\".\n  PDF below, and <https://arxiv.org/abs/2010.14374>\n- Leslie, D., *Understanding artificial intelligence ethics and safety*, Alan Turing\n  Institute. PDF below.\n- Bommasani et al., \"On the Opportunities and Risks of Foundation Models\". PDF below.\n- Lavin et al., \"Technology Readiness Levels for Machine Learning Systems\". PDF below.\n- *HAI AI Index Report 2024*, Stanford. Too large to host; read online:\n  <https://aiindex.stanford.edu/report/>\n\n#### Optional Readings\n\n- EU AI Act, final text. <https://artificialintelligenceact.eu/the-act/>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "lecture-11",
@@ -1065,7 +1194,11 @@
         }
       ],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
     },
     {
       "id": "lab-11",
@@ -1083,7 +1216,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
     },
     {
       "id": "lecture-12",
@@ -1101,7 +1237,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "drop-in"
+      ]
     },
     {
       "id": "assignment-3-project:due",
@@ -1119,7 +1258,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
     },
     {
       "id": "final-exam",
@@ -1137,7 +1279,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "exam"
+      ]
     },
     {
       "id": "resit-exam",
@@ -1155,7 +1300,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "exam"
+      ]
     },
     {
       "id": "term-end",
@@ -1173,7 +1321,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "term_date"
+      ]
     },
     {
       "id": "semester-archived",
@@ -1191,7 +1342,10 @@
       "links": [],
       "readings": [],
       "reading_list": "",
-      "readings_pending": false
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
+      ]
     }
   ],
   "assignments": [
