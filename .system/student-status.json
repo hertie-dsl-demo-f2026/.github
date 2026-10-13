@@ -6,7 +6,7 @@
   "student_console": true,
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-10-12T21:16:55+00:00",
+  "generated_at": "2026-10-13T08:01:24+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -1141,6 +1141,12 @@
       "tbc": false,
       "off_schedule": false,
       "links": [
+        {
+          "name": "serving.py",
+          "repo": "materials",
+          "path": "code/dldemo/serving.py",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/code/dldemo/serving.py"
+        },
         {
           "name": "midterm-guide.pdf",
           "repo": "materials",
