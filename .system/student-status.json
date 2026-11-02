@@ -6,7 +6,7 @@
   "student_console": true,
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-11-02T14:52:17+00:00",
+  "generated_at": "2026-11-02T14:53:41+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -1403,6 +1403,29 @@
       "no_materials": false
     },
     {
+      "id": "assignment-92:handout",
+      "kind": "assignment",
+      "when": "2026-11-02T15:53:00+01:00",
+      "sort_at": "2026-11-02T15:53:00+01:00",
+      "all_day": false,
+      "title": "Assignment 92",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-92",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ],
+      "no_materials": false
+    },
+    {
       "id": "final-exam",
       "kind": "exam",
       "when": "2026-11-10T10:00:00+01:00",
@@ -1828,7 +1851,7 @@
       "slug": "assignment-92",
       "title": "Assignment 92",
       "subtitle": "TMP quiz, past due",
-      "handout_datetime": null,
+      "handout_datetime": "2026-11-02T15:53:00+01:00",
       "due_datetime": "2026-10-15T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-10-25T23:59:00+01:00",
       "late_rule": "",
@@ -1843,8 +1866,8 @@
       "teams": [],
       "solution_datetime": null,
       "max_points": 100,
-      "handed_out": false,
-      "brief": "",
+      "handed_out": true,
+      "brief": "This assignment is a conventional written essay, marked on the strength of your argument\nrather than on any code.\n\n## Task\n\nChoose one of the debates set for this assignment - the ones covering the course's data\nethics and methodology sessions - and construct an argument that takes a clear position\nand defends it against the obvious objections, rather than describing both sides and\ndeclining to choose. An essay that surveys the literature without ever committing to a\nclaim is the most common way marks are lost here.\n\nUse evidence deliberately: a claim about a method's limitations should point to a\nspecific case or result, not a vague appeal to \"the literature\". Keep the structure\nsimple - an introduction that states your position, a body that builds the case section\nby section, and a conclusion that could not be swapped for another essay's without\nchanging the argument beneath it.\n\nSuggested approach:\n\n- Choose your question early and write your position in one sentence before drafting anything.\n- Outline the argument as a sequence of claims, and check each one has evidence behind it.\n- Draft the body before the introduction; write the introduction to match what you\n  actually argued.\n- Read it back for anywhere you hedge instead of arguing, and fix those first.\n\n## What to submit\n\nUpload your essay to Moodle (moodle.hertie-school.org). Nothing is collected from GitHub\nfor this assignment; this repository holds the brief and nothing else.\n\n## Grading\n\n- Argument (40%): a clear position, defended against its obvious objections.\n- Evidence (30%): specific, relevant support for each substantive claim.\n- Writing (30%): structure, clarity, and whether the conclusion follows from the body.",
       "tbc": false
     },
     {
