@@ -6,7 +6,7 @@
   "student_console": true,
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-11-03T15:42:53+00:00",
+  "generated_at": "2026-11-03T15:46:12+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -1212,6 +1212,38 @@
       "repeat": false
     },
     {
+      "id": "lab-11",
+      "kind": "lab",
+      "when": null,
+      "sort_at": "2026-10-01T14:01:00+02:00",
+      "all_day": false,
+      "title": "Lab 11",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "released_at": "2026-10-15T13:01:21+02:00",
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "Lab Session 11 (b).ipynb",
+          "repo": "materials",
+          "path": "labs/11_deep-learning-in-practice/Lab Session 11 (b).ipynb",
+          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/11_deep-learning-in-practice/Lab%20Session%2011%20%28b%29.ipynb"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ],
+      "no_materials": false,
+      "repeat": false
+    },
+    {
       "id": "reading-week",
       "kind": "special_event",
       "when": "2026-10-06",
@@ -1360,38 +1392,6 @@
       "tabs": [
         "lecture",
         "readings"
-      ],
-      "no_materials": false,
-      "repeat": false
-    },
-    {
-      "id": "lab-11",
-      "kind": "lab",
-      "when": "2026-10-15T14:00:00+02:00",
-      "sort_at": "2026-10-15T14:00:00+02:00",
-      "all_day": false,
-      "title": "Lab 11",
-      "subtitle": "",
-      "details": "",
-      "assignment": null,
-      "released": true,
-      "released_at": null,
-      "tbc": false,
-      "dateless": false,
-      "off_schedule": false,
-      "links": [
-        {
-          "name": "Lab Session 11 (b).ipynb",
-          "repo": "materials",
-          "path": "labs/11_deep-learning-in-practice/Lab Session 11 (b).ipynb",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/labs/11_deep-learning-in-practice/Lab%20Session%2011%20%28b%29.ipynb"
-        }
-      ],
-      "readings": [],
-      "reading_list": "",
-      "readings_pending": false,
-      "tabs": [
-        "lab"
       ],
       "no_materials": false,
       "repeat": false
