@@ -6,7 +6,7 @@
   "student_console": true,
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-11-03T11:47:49+00:00",
+  "generated_at": "2026-11-03T15:42:53+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -18,60 +18,70 @@
   "kinds": {
     "lecture": {
       "label": "Lecture",
+      "plural": "lectures",
       "colour": "#a94442",
       "background": "#f2dede",
       "tab": true
     },
     "lab": {
       "label": "Lab",
+      "plural": "labs",
       "colour": "#3c763d",
       "background": "#dff0d8",
       "tab": true
     },
     "readings": {
       "label": "Readings",
+      "plural": "readings",
       "colour": "#2b6a60",
       "background": "#dcefec",
       "tab": true
     },
     "exam": {
       "label": "Exam",
+      "plural": "exams",
       "colour": "#2b2f36",
       "background": "#e6e8ec",
       "tab": true
     },
     "assignment": {
       "label": "Assignment",
+      "plural": "assignments",
       "colour": "#1f5fa8",
       "background": "#d6e6f7",
       "tab": false
     },
-    "term": {
+    "semester": {
       "label": "Semester",
+      "plural": "semesters",
       "colour": "#7b3fb8",
       "background": "#ead9f6",
       "tab": false
     },
     "archive": {
       "label": "Archive",
+      "plural": "archives",
       "colour": "#7d6230",
       "background": "#fbf2d5",
       "tab": false
     },
     "drop-in": {
       "label": "Drop-in",
+      "plural": "drop-ins",
       "colour": "#8f4a1c",
       "background": "#fbe3d6",
       "tab": true
     },
     "assets": {
       "label": "Supporting files",
+      "plural": "assets",
       "colour": "#4a5560",
       "background": "#eceff1",
       "tab": true
     },
     "other": {
       "label": "Event",
+      "plural": "events",
       "colour": "#7d6230",
       "background": "#fbf2d5",
       "tab": true
@@ -80,7 +90,7 @@
   "rows": [
     {
       "id": "term-start",
-      "kind": "term_date",
+      "kind": "semester",
       "when": "2026-08-04",
       "sort_at": "2026-08-04",
       "all_day": true,
@@ -89,6 +99,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -97,9 +108,10 @@
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
-        "term_date"
+        "semester"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-01",
@@ -109,9 +121,10 @@
       "all_day": false,
       "title": "Lecture 1",
       "subtitle": "Deep learning in public policy",
-      "details": "What deep learning is, where it already sits in public-sector decision making, and what this course will and will not claim for it.\n",
+      "details": "What deep learning is, where it already sits in public-sector decision making, and what this course will and will not claim for it.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -142,7 +155,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-01",
@@ -155,6 +169,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -184,7 +199,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-02",
@@ -194,9 +210,10 @@
       "all_day": false,
       "title": "Lecture 2",
       "subtitle": "Deep neural networks (1)",
-      "details": "Perceptrons, activation functions and the forward pass; why depth buys representational power.\n",
+      "details": "Perceptrons, activation functions and the forward pass; why depth buys representational power.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -215,7 +232,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-02",
@@ -228,6 +246,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -245,7 +264,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-03",
@@ -255,9 +275,10 @@
       "all_day": false,
       "title": "Lecture 3",
       "subtitle": "Deep neural networks (2)",
-      "details": "Backpropagation and gradient descent in practice: initialisation, learning rates, and the failure modes of each.\n",
+      "details": "Backpropagation and gradient descent in practice: initialisation, learning rates, and the failure modes of each.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -276,7 +297,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-1:handout",
@@ -289,6 +311,7 @@
       "details": "",
       "assignment": "assignment-1",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -299,7 +322,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-03",
@@ -312,6 +336,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -329,7 +354,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-04",
@@ -339,9 +365,10 @@
       "all_day": false,
       "title": "Lecture 4",
       "subtitle": "Computer vision (1): Convolutional neural networks",
-      "details": "Convolution, pooling and parameter sharing, and why they suit images.\n",
+      "details": "Convolution, pooling and parameter sharing, and why they suit images.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -373,7 +400,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-04",
@@ -386,6 +414,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -403,7 +432,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-05",
@@ -413,9 +443,10 @@
       "all_day": false,
       "title": "Lecture 5",
       "subtitle": "Computer vision (2): Modern CNNs, implementation and applications",
-      "details": "Residual connections and modern architectures, with applications to satellite imagery for policy.\n",
+      "details": "Residual connections and modern architectures, with applications to satellite imagery for policy.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -459,7 +490,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-2:handout",
@@ -472,6 +504,7 @@
       "details": "",
       "assignment": "assignment-2",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -482,7 +515,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-05",
@@ -495,6 +529,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -512,7 +547,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-06",
@@ -522,9 +558,10 @@
       "all_day": false,
       "title": "Lecture 6",
       "subtitle": "Sequence methods and time-series analysis",
-      "details": "Recurrent architectures and their limits; where classical time-series methods remain the better tool.\n",
+      "details": "Recurrent architectures and their limits; where classical time-series methods remain the better tool.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -548,7 +585,8 @@
       "tabs": [
         "lecture"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-1:due",
@@ -561,6 +599,7 @@
       "details": "",
       "assignment": "assignment-1",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -571,7 +610,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-06",
@@ -584,6 +624,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -601,7 +642,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-07",
@@ -611,9 +653,10 @@
       "all_day": false,
       "title": "Lecture 7",
       "subtitle": "Natural language processing (1)",
-      "details": "Text as data: tokenisation, embeddings, and what a language model is actually estimating.\n",
+      "details": "Text as data: tokenisation, embeddings, and what a language model is actually estimating.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -631,7 +674,8 @@
       "tabs": [
         "lecture"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-3-project:handout",
@@ -644,6 +688,7 @@
       "details": "",
       "assignment": "assignment-3-project",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -654,7 +699,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-4:handout",
@@ -667,6 +713,7 @@
       "details": "",
       "assignment": "assignment-4",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -677,7 +724,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-5:handout",
@@ -690,6 +738,7 @@
       "details": "",
       "assignment": "assignment-5",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -700,7 +749,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-6:handout",
@@ -713,6 +763,7 @@
       "details": "",
       "assignment": "assignment-6",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -723,7 +774,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-7:handout",
@@ -736,6 +788,7 @@
       "details": "",
       "assignment": "assignment-7",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -746,7 +799,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-4:due",
@@ -759,6 +813,7 @@
       "details": "",
       "assignment": "assignment-4",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -769,7 +824,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-5:due",
@@ -782,6 +838,7 @@
       "details": "",
       "assignment": "assignment-5",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -792,7 +849,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-6:due",
@@ -805,6 +863,7 @@
       "details": "",
       "assignment": "assignment-6",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -815,7 +874,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-7:due",
@@ -828,6 +888,7 @@
       "details": "",
       "assignment": "assignment-7",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -838,7 +899,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-08",
@@ -848,9 +910,10 @@
       "all_day": false,
       "title": "Lecture 8",
       "subtitle": "Natural language processing (2): Encoder-decoder architecture and attention",
-      "details": "The attention mechanism and the transformer, read through the papers that introduced them.\n",
+      "details": "The attention mechanism and the transformer, read through the papers that introduced them.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -918,7 +981,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "midterm-exam",
@@ -931,6 +995,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -941,7 +1006,8 @@
       "tabs": [
         "exam"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "guest-lecture",
@@ -954,6 +1020,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -964,7 +1031,8 @@
       "tabs": [
         "special_event"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-8:handout",
@@ -977,6 +1045,7 @@
       "details": "",
       "assignment": "assignment-8",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -987,7 +1056,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-09",
@@ -997,9 +1067,10 @@
       "all_day": false,
       "title": "Lecture 9",
       "subtitle": "Further topics in deep learning",
-      "details": "Uncertainty quantification, generative models, and the state of the research frontier.\n",
+      "details": "Uncertainty quantification, generative models, and the state of the research frontier.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1055,7 +1126,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-2:due",
@@ -1068,6 +1140,7 @@
       "details": "",
       "assignment": "assignment-2",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1078,7 +1151,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-8:due",
@@ -1091,6 +1165,7 @@
       "details": "",
       "assignment": "assignment-8",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1101,7 +1176,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-09",
@@ -1114,6 +1190,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1131,7 +1208,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "reading-week",
@@ -1144,6 +1222,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1154,7 +1233,8 @@
       "tabs": [
         "special_event"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-10",
@@ -1164,9 +1244,10 @@
       "all_day": false,
       "title": "Lecture 10",
       "subtitle": "Policy approaches to regulate deep learning",
-      "details": "Regulation, auditing and the documented harms of large models, with the EU AI Act as the worked case.\n",
+      "details": "Regulation, auditing and the documented harms of large models, with the EU AI Act as the worked case.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1234,7 +1315,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-11",
@@ -1244,9 +1326,10 @@
       "all_day": false,
       "title": "Lecture 11",
       "subtitle": "Deep learning in practice",
-      "details": "Putting a model into a real workflow: compute, reproducibility and maintenance.\n",
+      "details": "Putting a model into a real workflow: compute, reproducibility and maintenance.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1278,7 +1361,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-11",
@@ -1291,6 +1375,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1308,7 +1393,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-12",
@@ -1318,9 +1404,10 @@
       "all_day": false,
       "title": "Drop-in 1",
       "subtitle": "Tutorial presentations",
-      "details": "Students present their tutorial topic to the group.\n",
+      "details": "Students present their tutorial topic to the group.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1331,7 +1418,8 @@
       "tabs": [
         "drop-in"
       ],
-      "no_materials": true
+      "no_materials": true,
+      "repeat": false
     },
     {
       "id": "assignment-3-project:due",
@@ -1344,6 +1432,7 @@
       "details": "",
       "assignment": "assignment-3-project",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1354,7 +1443,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "final-exam",
@@ -1367,6 +1457,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1377,11 +1468,12 @@
       "tabs": [
         "exam"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "term-end",
-      "kind": "term_date",
+      "kind": "semester",
       "when": "2026-11-13",
       "sort_at": "2026-11-13",
       "all_day": true,
@@ -1390,6 +1482,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1398,9 +1491,10 @@
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
-        "term_date"
+        "semester"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "resit-exam",
@@ -1413,6 +1507,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1423,7 +1518,8 @@
       "tabs": [
         "exam"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "semester-archived",
@@ -1436,6 +1532,7 @@
       "details": "This semester is archived on 2027-01-12: every repository in it becomes read-only. You keep read access, so you can still fork or clone anything you want to keep working on into your own account.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1446,7 +1543,8 @@
       "tabs": [
         "special_event"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     }
   ],
   "assignments": [
@@ -1512,13 +1610,7 @@
       "submit_url": "",
       "group": true,
       "team_formation": null,
-      "teams": [
-        {
-          "name": "team-latency",
-          "members": 1,
-          "cap": 3
-        }
-      ],
+      "teams": [],
       "solution_datetime": null,
       "max_points": 50,
       "handed_out": true,
