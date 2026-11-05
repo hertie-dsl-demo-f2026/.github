@@ -6,7 +6,7 @@
   "student_console": true,
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-11-05T14:02:36+00:00",
+  "generated_at": "2026-11-05T14:35:26+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -223,22 +223,9 @@
           "repo": "materials",
           "path": "lectures/02_deep-neural-networks-1/Session2_E1394_DL.pdf",
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/02_deep-neural-networks-1/Session2_E1394_DL.pdf"
-        },
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/02_deep-neural-networks-1/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/02_deep-neural-networks-1/READINGS.md"
         }
       ],
-      "readings": [
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/02_deep-neural-networks-1/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/02_deep-neural-networks-1/READINGS.md"
-        }
-      ],
+      "readings": [],
       "reading_list": "### Session 2 readings\n\nWork through the interactive chapters before class - nothing to download:\n\nhttps://www.deeplearningbook.org/contents/mlp.html\nhttps://playground.tensorflow.org/",
       "readings_pending": false,
       "tabs": [
@@ -301,22 +288,9 @@
           "repo": "materials",
           "path": "lectures/03_deep-neural-networks-2/Session3_E1394_DL_Lecture.pdf",
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/03_deep-neural-networks-2/Session3_E1394_DL_Lecture.pdf"
-        },
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/03_deep-neural-networks-2/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/03_deep-neural-networks-2/READINGS.md"
         }
       ],
-      "readings": [
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/03_deep-neural-networks-2/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/03_deep-neural-networks-2/READINGS.md"
-        }
-      ],
+      "readings": [],
       "reading_list": "### Session 3 readings\n\n#### Required Readings\n\n- Ng, A. & Ma, T., *CS229 Lecture Notes*, Stanford. Sections on backpropagation.\n  Read online: <https://cs229.stanford.edu/main_notes.pdf>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
       "readings_pending": false,
       "tabs": [
@@ -410,12 +384,6 @@
           "repo": "materials",
           "path": "readings/04_computer-vision-1-cnns/Kerner, H., Tseng, G., Becker-Reshef, I., Nakalembe, C., Barker, B., Munshell, B., Paliyam, M. and Hosseini, M., 2020. Rapid Response Crop Maps in Data Sparse Regions. arXiv preprin.pdf",
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/04_computer-vision-1-cnns/Kerner%2C%20H.%2C%20Tseng%2C%20G.%2C%20Becker-Reshef%2C%20I.%2C%20Nakalembe%2C%20C.%2C%20Barker%2C%20B.%2C%20Munshell%2C%20B.%2C%20Paliyam%2C%20M.%20and%20Hosseini%2C%20M.%2C%202020.%20Rapid%20Response%20Crop%20Maps%20in%20Data%20Sparse%20Regions.%20arXiv%20preprin.pdf"
-        },
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/04_computer-vision-1-cnns/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/04_computer-vision-1-cnns/READINGS.md"
         }
       ],
       "readings": [
@@ -424,12 +392,6 @@
           "repo": "materials",
           "path": "readings/04_computer-vision-1-cnns/Kerner, H., Tseng, G., Becker-Reshef, I., Nakalembe, C., Barker, B., Munshell, B., Paliyam, M. and Hosseini, M., 2020. Rapid Response Crop Maps in Data Sparse Regions. arXiv preprin.pdf",
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/04_computer-vision-1-cnns/Kerner%2C%20H.%2C%20Tseng%2C%20G.%2C%20Becker-Reshef%2C%20I.%2C%20Nakalembe%2C%20C.%2C%20Barker%2C%20B.%2C%20Munshell%2C%20B.%2C%20Paliyam%2C%20M.%20and%20Hosseini%2C%20M.%2C%202020.%20Rapid%20Response%20Crop%20Maps%20in%20Data%20Sparse%20Regions.%20arXiv%20preprin.pdf"
-        },
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/04_computer-vision-1-cnns/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/04_computer-vision-1-cnns/READINGS.md"
         }
       ],
       "reading_list": "### Session 4 readings\n\n#### Required Readings\n\n- Kerner et al. (2020), \"Rapid Response Crop Maps in Data Sparse Regions\".\n  PDF below, and <https://arxiv.org/abs/2006.16866>\n- Finer, M. et al. (2018), \"Combating deforestation: From satellite to intervention\",\n  *Science* 360(6395). Available through the Hertie library.\n\n#### Optional Readings\n\n- Zhang et al., *Dive into Deep Learning*, ch. 7 (CNNs).\n  <https://d2l.ai/chapter_convolutional-neural-networks/>\n\n*This is a public repository, so copyrighted readings are cited rather than redistributed.*",
@@ -502,12 +464,6 @@
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/05_computer-vision-2-modern-cnns/1512.02325v5.pdf"
         },
         {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/05_computer-vision-2-modern-cnns/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/05_computer-vision-2-modern-cnns/READINGS.md"
-        },
-        {
           "name": "U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf",
           "repo": "materials",
           "path": "readings/05_computer-vision-2-modern-cnns/U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf",
@@ -520,12 +476,6 @@
           "repo": "materials",
           "path": "readings/05_computer-vision-2-modern-cnns/1512.02325v5.pdf",
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/05_computer-vision-2-modern-cnns/1512.02325v5.pdf"
-        },
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/05_computer-vision-2-modern-cnns/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/05_computer-vision-2-modern-cnns/READINGS.md"
         },
         {
           "name": "U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf",
@@ -1003,12 +953,6 @@
           "repo": "materials",
           "path": "readings/08_nlp-2-encoder-decoder-and-attention/Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/Jacob%20Devlin%2C%20Ming-Wei%20Chang%2C%20Kenton%20Lee%2C%20Kristina%20Toutanova%20-%20BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding.pdf"
-        },
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/08_nlp-2-encoder-decoder-and-attention/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/READINGS.md"
         }
       ],
       "readings": [
@@ -1029,12 +973,6 @@
           "repo": "materials",
           "path": "readings/08_nlp-2-encoder-decoder-and-attention/Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/Jacob%20Devlin%2C%20Ming-Wei%20Chang%2C%20Kenton%20Lee%2C%20Kristina%20Toutanova%20-%20BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding.pdf"
-        },
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/08_nlp-2-encoder-decoder-and-attention/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/08_nlp-2-encoder-decoder-and-attention/READINGS.md"
         }
       ],
       "reading_list": "### Session 8 readings\n\n#### Required Readings\n\n- Vaswani et al. (2017), \"Attention Is All You Need\". doi:10.48550/arXiv.1706.03762\n- Devlin et al. (2019), \"BERT: Pre-training of Deep Bidirectional Transformers\".\n- Dosovitskiy et al. (2021), \"An Image is Worth 16x16 Words\". All three PDFs below.",
@@ -1339,12 +1277,6 @@
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/Amarasinghe%2C%20K.%2C%20Rodolfa%2C%20K.%2C%20Lamba%2C%20H.%2C%20%20Ghani%2C%20R.%20%282020%29.%20Explainable%20machine%20learning%20for%20public%20policy%20Use%20cases%2C%20gaps%2C%20and%20research%20directions.%20arXiv%20preprint%20arXiv2010.14374..pdf"
         },
         {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/10_policy-approaches-and-responsible-implementation/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/READINGS.md"
-        },
-        {
           "name": "understanding_artificial_intelligence_ethics_and_safety.pdf",
           "repo": "materials",
           "path": "readings/10_policy-approaches-and-responsible-implementation/understanding_artificial_intelligence_ethics_and_safety.pdf",
@@ -1369,12 +1301,6 @@
           "repo": "materials",
           "path": "readings/10_policy-approaches-and-responsible-implementation/Amarasinghe, K., Rodolfa, K., Lamba, H.,  Ghani, R. (2020). Explainable machine learning for public policy Use cases, gaps, and research directions. arXiv preprint arXiv2010.14374..pdf",
           "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/Amarasinghe%2C%20K.%2C%20Rodolfa%2C%20K.%2C%20Lamba%2C%20H.%2C%20%20Ghani%2C%20R.%20%282020%29.%20Explainable%20machine%20learning%20for%20public%20policy%20Use%20cases%2C%20gaps%2C%20and%20research%20directions.%20arXiv%20preprint%20arXiv2010.14374..pdf"
-        },
-        {
-          "name": "READINGS.md",
-          "repo": "materials",
-          "path": "readings/10_policy-approaches-and-responsible-implementation/READINGS.md",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/readings/10_policy-approaches-and-responsible-implementation/READINGS.md"
         },
         {
           "name": "understanding_artificial_intelligence_ethics_and_safety.pdf",
