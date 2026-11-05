@@ -6,7 +6,7 @@
   "student_console": true,
   "semester_start": "2026-08-04",
   "semester_end": "2026-11-13",
-  "generated_at": "2026-11-05T14:35:26+00:00",
+  "generated_at": "2026-11-05T17:54:29+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-01-12",
   "home_markdown": "Welcome to **Deep Learning (Demo)** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-dsl-demo-f2026) or contact the instructor directly.",
@@ -1517,69 +1517,6 @@
       "readings_pending": false,
       "tabs": [
         "exam"
-      ],
-      "no_materials": false,
-      "repeat": false
-    },
-    {
-      "id": "readings-validation-session-12",
-      "kind": "readings",
-      "when": "2026-11-19T09:00:00+01:00",
-      "sort_at": "2026-11-19T09:00:00+01:00",
-      "all_day": false,
-      "title": "Readings",
-      "subtitle": "Validation readings (session 12)",
-      "details": "",
-      "assignment": null,
-      "released": true,
-      "released_at": null,
-      "tbc": false,
-      "dateless": false,
-      "off_schedule": false,
-      "links": [
-        {
-          "name": "Session8_E1394_DL SECOND SESSION.pdf",
-          "repo": "materials",
-          "path": "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL SECOND SESSION.pdf",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL%20SECOND%20SESSION.pdf"
-        },
-        {
-          "name": "Session8_E1394_DL.pdf",
-          "repo": "materials",
-          "path": "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL.pdf",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL.pdf"
-        },
-        {
-          "name": "slides/ (51 files)",
-          "repo": "materials",
-          "path": "lectures/08_nlp-2-encoder-decoder-and-attention/slides",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/tree/main/lectures/08_nlp-2-encoder-decoder-and-attention/slides"
-        }
-      ],
-      "readings": [
-        {
-          "name": "Session8_E1394_DL SECOND SESSION.pdf",
-          "repo": "materials",
-          "path": "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL SECOND SESSION.pdf",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL%20SECOND%20SESSION.pdf"
-        },
-        {
-          "name": "Session8_E1394_DL.pdf",
-          "repo": "materials",
-          "path": "lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL.pdf",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/blob/main/lectures/08_nlp-2-encoder-decoder-and-attention/Session8_E1394_DL.pdf"
-        },
-        {
-          "name": "slides/ (51 files)",
-          "repo": "materials",
-          "path": "lectures/08_nlp-2-encoder-decoder-and-attention/slides",
-          "url": "https://github.com/hertie-dsl-demo-f2026/materials/tree/main/lectures/08_nlp-2-encoder-decoder-and-attention/slides"
-        }
-      ],
-      "reading_list": "",
-      "readings_pending": false,
-      "tabs": [
-        "readings"
       ],
       "no_materials": false,
       "repeat": false
